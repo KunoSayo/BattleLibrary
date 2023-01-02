@@ -1,0 +1,15 @@
+summon minecraft:armor_stand ~ ~ ~ {Tags:["DONOTAS", "DONOTDROP"],Invisible:1b}
+summon minecraft:armor_stand ~ ~ ~ {Tags:["DONOTAS", "DONOTFALL"],Invisible:1b}
+summon minecraft:armor_stand ~ ~ ~ {Tags:["DONOTAS", "DONOTGODEEP"],Invisible:1b}
+summon minecraft:armor_stand ~ ~ ~ {Tags:["DONOTAS", "DONOTGONETHER"],Invisible:1b}
+#summon minecraft:armor_stand ~ ~ ~ {Tags:["DONOTAS", "DONOTJUMP"],Invisible:1b}
+#summon minecraft:armor_stand ~ ~ ~ {Tags:["DONOTAS", "DONOTSHIFT"],Invisible:1b}
+summon minecraft:armor_stand ~ ~ ~ {Tags:["DONOTAS", "DONOTRIDE"],Invisible:1b}
+summon minecraft:armor_stand ~ ~ ~ {Tags:["DONOTAS", "DONOTGOHIGH"],Invisible:1b}
+summon minecraft:armor_stand ~ ~ ~ {Tags:["DONOTAS", "DONOTINTERACTFURNACE"],Invisible:1b}
+summon minecraft:armor_stand ~ ~ ~ {Tags:["DONOTAS", "DONOTINTERACTANVIL"],Invisible:1b}
+summon minecraft:armor_stand ~ ~ ~ {Tags:["DONOTAS", "DONOTINTERACTCAMPFIRE"],Invisible:1b}
+summon minecraft:armor_stand ~ ~ ~ {Tags:["DONOTAS", "DONOTSWIM"],Invisible:1b}
+summon minecraft:armor_stand ~ ~ ~ {Tags:["DONOTAS", "DONOTTHROWSNOWBALL"],Invisible:1b}
+summon minecraft:armor_stand ~ ~ ~ {Tags:["DONOTAS", "DONOTTHROWEGG"],Invisible:1b}
+summon minecraft:armor_stand ~ ~ ~ {Tags:["DONOTAS", "DONOTWALKICE"],Invisible:1b}
