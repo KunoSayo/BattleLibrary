@@ -1,7 +1,9 @@
 scoreboard objectives add timeToLive dummy
 scoreboard objectives add consts dummy
 scoreboard objectives add bas dummy
+scoreboard objectives add bac dummy
 
+scoreboard players set 0 consts 0
 scoreboard players set 1 consts 1
 scoreboard players set 2 consts 2
 scoreboard players set 3 consts 3
@@ -19,4 +21,7 @@ scoreboard players set 1000 consts 1000
 
 # Data
 scoreboard objectives add Health health
+
+# Default values
 scoreboard players set maxRayTraceTime bas 80
+scoreboard players set forward bas 20

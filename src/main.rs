@@ -2,6 +2,7 @@ use std::fs::File;
 use std::io::{Error, Write};
 
 const OVERWRITE: bool = false;
+
 fn gen_file(name: &str) -> Result<File, Error> {
     let mut file = File::options()
         .create(true)
@@ -15,17 +16,36 @@ fn gen_file(name: &str) -> Result<File, Error> {
 
 mod scripts {
     use std::io::{Error, Write};
+
     use crate::gen_file;
 
     pub fn circles() -> Result<(), Error> {
-        for rad in 1..=25 {
-            let mut file = gen_file(&format!("circle{}", rad))?;
-            for i in 0..360 {
+        let mut rad = 0.5;
+        while rad <= 25.0 {
+            let mut file = gen_file(&format!("circle{:.1}", rad))?;
+            let step = if rad <= 1.0 {
+                10.0
+            } else if rad <= 3.0 {
+                5.0
+            } else if rad <= 5.0 {
+                4.0
+            } else if rad <= 10.0 {
+                2.0
+            } else {
+                1.0
+            };
+
+            let mut i = 0;
+            while i < 360 {
                 let (sin, cos) = ((i as f64) * std::f64::consts::PI / 180.0).sin_cos();
                 let x = sin * rad as f64;
                 let y = cos * rad as f64;
-                writeln!(file, "execute positioned ~{x} ~ ~{y} run function battleapi:circle_cb")?;
+                let rx = -x;
+                let ry = -y;
+                writeln!(file, "execute positioned ~{x:.5} ~ ~{y:.5} facing ~{rx:.5} ~ ~{ry:.5} run function battleapi:circle_cb")?;
+                i += step;
             }
+            rad += 0.5;
         }
         Ok(())
     }
