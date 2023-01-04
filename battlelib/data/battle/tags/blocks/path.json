@@ -1,0 +1,13 @@
+{
+  "values":[
+    {
+      "id": "minecraft:air"
+    },
+    {
+      "id": "minecraft:grass"
+    },
+    {
+      "id": "#minecraft:signs"
+    }
+  ]
+}
