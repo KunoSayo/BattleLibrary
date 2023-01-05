@@ -32,3 +32,7 @@ scoreboard objectives add Death deathCount
 scoreboard players set maxRayTraceTime bas 80
 scoreboard players set forward bas 20
 scoreboard players set maxHealth bas 20
+
+
+# load
+forceload add 0 0

@@ -4,6 +4,7 @@
 
 ```mcfunction
 # 初始化
+# 会强制加载区块0 0 
 function battle:init
 
 # 以执行位置击退玩家bas::driveoff * 0.25格的距离（至多歪40格）
@@ -18,6 +19,11 @@ function battle:circle{rad}
 # 以执行位置面向往前，以scoreboard中bas的forward参数值的0.25倍的格为距离
 # 回调battleapi:forward_cb
 function battle:forward
+
+# 在执行位置生成盔甲架显示数字
+# 使用0 8 0和0 9 0位置方块
+# 使用bas的n的分数作为数字
+function battle:displayn
 ```
 
 ## Scoreboards
@@ -37,6 +43,7 @@ function battle:forward
 ## Tags
 
 * battleLibTagKill 标记将要击杀的实体
+* showDmgAs 显示伤害的盔甲架（会自动上升）
 
 ## Notes
 

@@ -1,3 +1,5 @@
+
+# Time to live logic
 tag @e remove battleLibTagKill
 tag @e[scores={timeToLive=0}] add battleLibTagKill
 scoreboard players reset @e[tag=battleLibTagKill] timeToLive
@@ -7,6 +9,7 @@ scoreboard players operation @e[scores={timeToLive=1..}] timeToLive -= 1 consts
 
 
 
+# Time logic
 scoreboard players add gt time 1
 execute if score gt time matches 20.. run function battle:_second
 
@@ -18,3 +21,6 @@ scoreboard players reset @a[scores={dmgcd=0}] dmgcd
 
 
 execute as @a[scores={Death=1..}] at @s run function battleapi:on_death
+
+# dmg
+execute as @e[tag=showDmgAs] at @s run tp ~ ~0.0625 ~
