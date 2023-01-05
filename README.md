@@ -14,7 +14,7 @@ function battle:driveoff
 function battle:circle{rad}
 
 # 以执行位置中心画斜向箭头指向玩家，调用battleapi:x2self_cb
-function battle:circle{rad}
+function battle:x2self
 
 # 以执行位置面向往前，以scoreboard中bas的forward参数值的0.25倍的格为距离
 # 回调battleapi:forward_cb
