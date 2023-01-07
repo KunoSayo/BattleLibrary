@@ -36,14 +36,20 @@ function battle:displayn
 * time (dummy) 计时
 * dmg (dummy) 以瞬间伤害0为基准的次数【会根据层数自动加瞬间伤害等级至1/2】（玩家only）
 * dmgcd (dummy) 造成伤害之后的cd
+* gcd (dummy) global cool down
+* chant (dummy) 吟唱剩余tick
 
 * Health (health) 玩家的HP
 * Death (deathCount) 死亡
+* walk 行走记录
+* crouch 蹲着走记录
+* sneak 蹲着记录
 
 ## Tags
 
 * battleLibTagKill 标记将要击杀的实体
 * showDmgAs 显示伤害的盔甲架（会自动上升）
+* self 部分函数体标记执行者自身
 
 ## Notes
 

@@ -6,6 +6,8 @@ scoreboard objectives add bau dummy
 scoreboard objectives add time dummy
 scoreboard objectives add dmg dummy
 scoreboard objectives add dmgcd dummy
+scoreboard objectives add gcd dummy
+scoreboard objectives add chant dummy
 
 scoreboard players set 0 consts 0
 scoreboard players set 1 consts 1
@@ -26,7 +28,9 @@ scoreboard players set 1000 consts 1000
 # Data
 scoreboard objectives add Health health
 scoreboard objectives add Death deathCount
-
+scoreboard objectives add walk minecraft.custom:minecraft.walk_one_cm
+scoreboard objectives add crouch minecraft.custom:minecraft.crouch_one_cm
+scoreboard objectives add sneak minecraft.custom:minecraft.sneak_time
 
 # Default values
 scoreboard players set maxRayTraceTime bas 80
@@ -36,3 +40,7 @@ scoreboard players set maxHealth bas 20
 
 # load
 forceload add 0 0
+
+# ui
+scoreboard objectives setdisplay list Health
+scoreboard objectives setdisplay belowName Health

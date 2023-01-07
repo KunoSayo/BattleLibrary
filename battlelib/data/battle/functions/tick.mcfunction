@@ -24,3 +24,9 @@ execute as @a[scores={Death=1..}] at @s run function battleapi:on_death
 
 # dmg
 execute as @e[tag=showDmgAs] at @s run tp ~ ~0.0625 ~
+
+# events
+# todo: callbacks
+scoreboard players reset @a walk
+scoreboard players reset @a crouch
+scoreboard players reset @a sneak
