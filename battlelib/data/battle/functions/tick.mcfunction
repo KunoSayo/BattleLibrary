@@ -1,3 +1,5 @@
+function battleapi:pretick
+
 
 # Time to live logic
 tag @e remove battleLibTagKill
@@ -26,7 +28,24 @@ execute as @a[scores={Death=1..}] at @s run function battleapi:on_death
 execute as @e[tag=showDmgAs] at @s run tp ~ ~0.0625 ~
 
 # events
-# todo: callbacks
+execute as @a[scores={Death=1..}] at @s run function battleapi:on_death
+execute as @a[scores={walk=1..}] at @s run function battleapi:on_move
+execute as @a[scores={crouch=1..}] at @s run function battleapi:on_move
+execute as @a[scores={sneak=1..}] at @s run function battleapi:on_sneak
+
 scoreboard players reset @a walk
 scoreboard players reset @a crouch
 scoreboard players reset @a sneak
+scoreboard players reset @a Death
+
+execute as @a unless score @s gcd matches 1.. run function battle:check_inv
+
+
+execute as @a[scores={chant=0..}] run function battleapi:chant_cb
+execute as @a[scores={chant=0}] run scoreboard players reset @s chant
+execute as @a[scores={gcd=0}] run scoreboard players reset @s gcd
+
+execute as @a[scores={chant=1..}] run scoreboard players remove @s chant 1
+execute as @a[scores={gcd=1..}] run scoreboard players remove @s gcd 1
+
+function battleapi:posttick

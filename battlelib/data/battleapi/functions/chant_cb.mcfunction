@@ -1,0 +1,1 @@
+function ff14:chant_cb

@@ -38,6 +38,7 @@ function battle:displayn
 * dmgcd (dummy) 造成伤害之后的cd
 * gcd (dummy) global cool down
 * chant (dummy) 吟唱剩余tick
+* maxchant (dummy) 吟唱对应技能所需tick
 
 * Health (health) 玩家的HP
 * Death (deathCount) 死亡

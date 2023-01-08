@@ -1,3 +1,5 @@
+function battle:uninstall
+
 scoreboard objectives add timeToLive dummy
 scoreboard objectives add consts dummy
 scoreboard objectives add bas dummy
@@ -8,6 +10,7 @@ scoreboard objectives add dmg dummy
 scoreboard objectives add dmgcd dummy
 scoreboard objectives add gcd dummy
 scoreboard objectives add chant dummy
+scoreboard objectives add maxchant dummy
 
 scoreboard players set 0 consts 0
 scoreboard players set 1 consts 1

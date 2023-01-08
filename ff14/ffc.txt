@@ -1,0 +1,9 @@
+闪灼21 atk
+蓝花20 heal
+ffc15 absorb
+复活26 respawn
+
+
+
+"boss的血量就50529了"
+100, 10% 150!

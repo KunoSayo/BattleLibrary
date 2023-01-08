@@ -1,0 +1,4 @@
+item replace entity @s[tag=ffcbattle] hotbar.0 with nether_star{display:{Lore:['"\\u00a76闪耀的魔法技能"', '"\\u00a79对目标发动\\u00a75无属性\\u00a79魔法攻击"'],"Name":"{\"text\":\"闪灼\"}}"}} 1
+item replace entity @s[tag=ffcbattle] hotbar.1 with minecraft:cornflower{display:{Lore:['"\\u00a76治疗百合"', '"\\u00a79恢复自身及周围玩家的体力"'],"Name":"{\"text\":\"\\u00a73蓝花\"}}"}} 1
+item replace entity @s[tag=ffcbattle] hotbar.2 with grass{display:{Lore:['"\\u00a7a可以防风"', '"\\u00a78\\u00a7m但防不了火"', '"\\u00a78\\u00a7m但防绵羊"'], "Name":"{\"text\":\"\\u00a7a防风草\"}}"},Enchantments:[{id:"unbreaking",lvl:1}]} 1
+item replace entity @s[tag=ffcbattle] hotbar.4 with minecraft:heart_of_the_sea{display:{Lore:['"\\u00a76令无法战斗的目标以完美的状态重新振作起来"', '"\\u00a78\\u00a7m令无法战斗的目标以虚弱的状态重新振作起来"'],"Name":"{\"text\":\"复活\"}}"}} 1
