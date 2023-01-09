@@ -43,6 +43,7 @@ function battle:displayn
 * Health (health) 玩家的HP
 * Death (deathCount) 死亡
 * walk 行走记录
+* run 跑记录
 * crouch 蹲着走记录
 * sneak 蹲着记录
 

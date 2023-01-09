@@ -1,0 +1,1 @@
+execute if score @s chant matches 11.. run function ff14:cancel_chant

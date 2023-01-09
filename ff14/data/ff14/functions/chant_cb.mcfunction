@@ -2,7 +2,7 @@ scoreboard players operation @s bac = @s chant
 scoreboard players operation @s bac *= 10 consts
 scoreboard players operation @s bac /= @s maxchant
 
-title @s[tag=atk, scores={bac=10}] actionbar [{"text":"\u00a76闪灼 \u00a77 发动中 ----------|\u00a7r "}, {"score":{"name":"*", "objective":"chant"}}]
+title @s[tag=atk, scores={bac=10}] actionbar [{"text":"\u00a76闪灼 \u00a77 发动中 ---------- \u00a7r| "}, {"score":{"name":"*", "objective":"chant"}}]
 title @s[tag=atk, scores={bac=9}] actionbar [{"text":"\u00a76闪灼 \u00a77 发动中 #--------- \u00a7r| "}, {"score":{"name":"*", "objective":"chant"}}]
 title @s[tag=atk, scores={bac=8}] actionbar [{"text":"\u00a76闪灼 \u00a77 发动中 ##-------- \u00a7r| "}, {"score":{"name":"*", "objective":"chant"}}]
 title @s[tag=atk, scores={bac=7}] actionbar [{"text":"\u00a76闪灼 \u00a77 发动中 ###------- \u00a7r| "}, {"score":{"name":"*", "objective":"chant"}}]
@@ -16,7 +16,7 @@ title @s[tag=atk, scores={bac=0}] actionbar [{"text":"\u00a76闪灼 \u00a77 发�
 title @s[tag=atk, scores={chant=0}] actionbar [{"text":"\u00a76闪灼 \u00a77 发动中 ########## \u00a7r| "}, {"score":{"name":"*", "objective":"chant"}}]
 tag @s[tag=atk, scores={chant=0}] remove atk
 
-title @s[tag=heal, scores={bac=10}] actionbar [{"text":"\u00a7b蓝花 \u00a77 发动中 ----------|\u00a7r "}, {"score":{"name":"*", "objective":"chant"}}]
+title @s[tag=heal, scores={bac=10}] actionbar [{"text":"\u00a7b蓝花 \u00a77 发动中 ---------- \u00a7r| "}, {"score":{"name":"*", "objective":"chant"}}]
 title @s[tag=heal, scores={bac=9}] actionbar [{"text":"\u00a7b蓝花 \u00a77 发动中 #--------- \u00a7r| "}, {"score":{"name":"*", "objective":"chant"}}]
 title @s[tag=heal, scores={bac=8}] actionbar [{"text":"\u00a7b蓝花 \u00a77 发动中 ##-------- \u00a7r| "}, {"score":{"name":"*", "objective":"chant"}}]
 title @s[tag=heal, scores={bac=7}] actionbar [{"text":"\u00a7b蓝花 \u00a77 发动中 ###------- \u00a7r| "}, {"score":{"name":"*", "objective":"chant"}}]
@@ -30,7 +30,7 @@ title @s[tag=heal, scores={bac=0}] actionbar [{"text":"\u00a7b蓝花 \u00a77 发
 title @s[tag=heal, scores={chant=0}] actionbar [{"text":"\u00a7b蓝花 \u00a77 发动中 ########## \u00a7r| "}, {"score":{"name":"*", "objective":"chant"}}]
 tag @s[tag=heal, scores={chant=0}] remove heal
 
-title @s[tag=respawn, scores={bac=10}] actionbar [{"text":"\u00a76复活 \u00a77 发动中 ----------|\u00a7r "}, {"score":{"name":"*", "objective":"chant"}}]
+title @s[tag=respawn, scores={bac=10}] actionbar [{"text":"\u00a76复活 \u00a77 发动中 ---------- \u00a7r| "}, {"score":{"name":"*", "objective":"chant"}}]
 title @s[tag=respawn, scores={bac=9}] actionbar [{"text":"\u00a76复活 \u00a77 发动中 #--------- \u00a7r| "}, {"score":{"name":"*", "objective":"chant"}}]
 title @s[tag=respawn, scores={bac=8}] actionbar [{"text":"\u00a76复活 \u00a77 发动中 ##-------- \u00a7r| "}, {"score":{"name":"*", "objective":"chant"}}]
 title @s[tag=respawn, scores={bac=7}] actionbar [{"text":"\u00a76复活 \u00a77 发动中 ###------- \u00a7r| "}, {"score":{"name":"*", "objective":"chant"}}]

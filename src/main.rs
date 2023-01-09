@@ -135,7 +135,7 @@ mod scripts {
 
     pub fn gcd_ui() -> ScriptReturn {
         let mut file = gen_ff14("gcd_ui", OVERWRITE)?;
-        writeln!(file, "execute if score @s gcd matches 0 run item replace entity @s hotbar.8 with air")?;
+        writeln!(file, "execute unless score @s gcd matches 1.. run item replace entity @s hotbar.8 with air")?;
 
         for tick in 1..=50 {
             let command = r#"execute if score @s gcd matches @tick@ run item replace entity @s hotbar.8 with minecraft:red_wool{display:{Lore:['"\\u00a7b关注安梦梦关注安梦梦喵谢谢喵"', '"\\u00a7a关注防风草关注防风草草谢谢草"'],"Name":"{\"text\":\"\\u00a76别看了，只是一个冷却显示用物品\"}}"}} @tick@"#;
