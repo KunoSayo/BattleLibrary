@@ -1,3 +1,4 @@
+scoreboard players set cc bau 5
 function battle:circle0.5
 function battle:circle1.5
 function battle:circle2.5

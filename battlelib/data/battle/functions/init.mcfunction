@@ -8,6 +8,8 @@ scoreboard objectives add bau dummy
 scoreboard objectives add time dummy
 scoreboard objectives add dmg dummy
 scoreboard objectives add dmgcd dummy
+scoreboard objectives add heal dummy
+scoreboard objectives add healcd dummy
 scoreboard objectives add gcd dummy
 scoreboard objectives add chant dummy
 scoreboard objectives add maxchant dummy

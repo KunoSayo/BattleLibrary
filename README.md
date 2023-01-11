@@ -36,6 +36,8 @@ function battle:displayn
 * time (dummy) 计时
 * dmg (dummy) 以瞬间伤害0为基准的次数【会根据层数自动加瞬间伤害等级至1/2】（玩家only）
 * dmgcd (dummy) 造成伤害之后的cd
+* heal(dummy) 以瞬间治疗0为基准的次数【会根据层数自动加瞬间伤害等级至1/2】（玩家only）
+* healcd (dummy) 造成伤害之后的cd
 * gcd (dummy) global cool down
 * chant (dummy) 吟唱剩余tick
 * maxchant (dummy) 吟唱对应技能所需tick

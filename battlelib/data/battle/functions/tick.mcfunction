@@ -15,11 +15,15 @@ scoreboard players operation @e[scores={timeToLive=1..}] timeToLive -= 1 consts
 scoreboard players add gt time 1
 execute if score gt time matches 20.. run function battle:_second
 
-# dmg tick
+# dmg & heal tick
 
 execute as @a[scores={dmg=1..}] unless score @s dmgcd matches 1.. run function battle:_checkdmg
 scoreboard players remove @a[scores={dmgcd=1..}] dmgcd 1
 scoreboard players reset @a[scores={dmgcd=0}] dmgcd
+
+execute as @a[scores={heal=1..}] unless score @s healcd matches 1.. run function battle:_checkheal
+scoreboard players remove @a[scores={healcd=1..}] healcd 1
+scoreboard players reset @a[scores={healcd=0}] healcd
 
 
 execute as @a[scores={Death=1..}] at @s run function battleapi:on_death
