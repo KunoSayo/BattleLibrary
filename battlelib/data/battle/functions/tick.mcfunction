@@ -13,6 +13,8 @@ scoreboard players operation @e[scores={timeToLive=1..}] timeToLive -= 1 consts
 
 # Time logic
 scoreboard players add gt time 1
+scoreboard players add time time 1
+scoreboard players remove cd time 1
 execute if score gt time matches 20.. run function battle:_second
 
 # dmg & heal tick
@@ -26,14 +28,13 @@ scoreboard players remove @a[scores={healcd=1..}] healcd 1
 scoreboard players reset @a[scores={healcd=0}] healcd
 
 
-execute as @a[scores={Death=1..}] at @s run function battleapi:on_death
 
 # dmg
 execute as @e[tag=showDmgAs] at @s run tp ~ ~0.0625 ~
 
 # events
 execute as @a[scores={Death=1..}] at @s run function battleapi:on_death
-execute as @a[scores={walk=1..}] at @s run function battleapi:on_move
+execute as @a[scores={walk=3..}] at @s run function battleapi:on_move
 execute as @a[scores={run=1..}] at @s run function battleapi:on_move
 execute as @a[scores={crouch=1..}] at @s run function battleapi:on_move
 execute as @a[scores={sneak=1..}] at @s run function battleapi:on_sneak
@@ -42,7 +43,6 @@ scoreboard players reset @a walk
 scoreboard players reset @a run
 scoreboard players reset @a crouch
 scoreboard players reset @a sneak
-scoreboard players reset @a Death
 
 execute as @a run function battle:check_inv
 

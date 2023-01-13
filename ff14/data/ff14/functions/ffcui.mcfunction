@@ -1,3 +1,7 @@
+# This file with magic.... (something about idea)
+
+execute unless score @s ffccd matches 1.. unless entity @s[tag=ffcbattle] run item replace entity @s hotbar.2 with minecraft:air
+
 item replace entity @s[tag=ffcbattle] hotbar.0 with nether_star{display:{Lore:['"\\u00a76闪耀的魔法技能"', '"\\u00a79对目标发动\\u00a75无属性\\u00a79魔法攻击"'],"Name":"{\"text\":\"闪灼\"}}"}} 1
 item replace entity @s[tag=ffcbattle] hotbar.1 with minecraft:cornflower{display:{Lore:['"\\u00a76治疗百合"', '"\\u00a79恢复自身及周围玩家的体力"'],"Name":"{\"text\":\"\\u00a73蓝花\"}}"}} 1
 execute unless score @s ffccd matches 1.. run item replace entity @s[tag=ffcbattle] hotbar.2 with grass{display:{Lore:['"\\u00a7a可以防风"', '"\\u00a78\\u00a7m但防不了火"', '"\\u00a78\\u00a7m但防绵羊"'], "Name":"{\"text\":\"\\u00a7a防风草\"}}"},Enchantments:[{id:"unbreaking",lvl:1}]} 1
@@ -6,10 +10,27 @@ item replace entity @s[tag=ffcbattle] hotbar.7 with air
 
 kill @e[type=item]
 
-
-
 scoreboard players operation @s bac = @s ffccd
 scoreboard players operation @s bac /= 20 consts
+execute if score @s ffccd matches 1 run item replace entity @s hotbar.2 with minecraft:yellow_wool{display:{Lore:['"\\u00a7b关注安梦梦关注安梦梦喵谢谢喵"', '"\\u00a7a关注防风草关注防风草草谢谢草"'],"Name":"{\"text\":\"\\u00a7a防风草（生长中）\"}}"}} 1
+execute if score @s ffccd matches 2 run item replace entity @s hotbar.2 with minecraft:yellow_wool{display:{Lore:['"\\u00a7b关注安梦梦关注安梦梦喵谢谢喵"', '"\\u00a7a关注防风草关注防风草草谢谢草"'],"Name":"{\"text\":\"\\u00a7a防风草（生长中）\"}}"}} 2
+execute if score @s ffccd matches 3 run item replace entity @s hotbar.2 with minecraft:yellow_wool{display:{Lore:['"\\u00a7b关注安梦梦关注安梦梦喵谢谢喵"', '"\\u00a7a关注防风草关注防风草草谢谢草"'],"Name":"{\"text\":\"\\u00a7a防风草（生长中）\"}}"}} 3
+execute if score @s ffccd matches 4 run item replace entity @s hotbar.2 with minecraft:yellow_wool{display:{Lore:['"\\u00a7b关注安梦梦关注安梦梦喵谢谢喵"', '"\\u00a7a关注防风草关注防风草草谢谢草"'],"Name":"{\"text\":\"\\u00a7a防风草（生长中）\"}}"}} 4
+execute if score @s ffccd matches 5 run item replace entity @s hotbar.2 with minecraft:yellow_wool{display:{Lore:['"\\u00a7b关注安梦梦关注安梦梦喵谢谢喵"', '"\\u00a7a关注防风草关注防风草草谢谢草"'],"Name":"{\"text\":\"\\u00a7a防风草（生长中）\"}}"}} 5
+execute if score @s ffccd matches 6 run item replace entity @s hotbar.2 with minecraft:yellow_wool{display:{Lore:['"\\u00a7b关注安梦梦关注安梦梦喵谢谢喵"', '"\\u00a7a关注防风草关注防风草草谢谢草"'],"Name":"{\"text\":\"\\u00a7a防风草（生长中）\"}}"}} 6
+execute if score @s ffccd matches 7 run item replace entity @s hotbar.2 with minecraft:yellow_wool{display:{Lore:['"\\u00a7b关注安梦梦关注安梦梦喵谢谢喵"', '"\\u00a7a关注防风草关注防风草草谢谢草"'],"Name":"{\"text\":\"\\u00a7a防风草（生长中）\"}}"}} 7
+execute if score @s ffccd matches 8 run item replace entity @s hotbar.2 with minecraft:yellow_wool{display:{Lore:['"\\u00a7b关注安梦梦关注安梦梦喵谢谢喵"', '"\\u00a7a关注防风草关注防风草草谢谢草"'],"Name":"{\"text\":\"\\u00a7a防风草（生长中）\"}}"}} 8
+execute if score @s ffccd matches 9 run item replace entity @s hotbar.2 with minecraft:yellow_wool{display:{Lore:['"\\u00a7b关注安梦梦关注安梦梦喵谢谢喵"', '"\\u00a7a关注防风草关注防风草草谢谢草"'],"Name":"{\"text\":\"\\u00a7a防风草（生长中）\"}}"}} 9
+execute if score @s ffccd matches 10 run item replace entity @s hotbar.2 with minecraft:yellow_wool{display:{Lore:['"\\u00a7b关注安梦梦关注安梦梦喵谢谢喵"', '"\\u00a7a关注防风草关注防风草草谢谢草"'],"Name":"{\"text\":\"\\u00a7a防风草（生长中）\"}}"}} 10
+execute if score @s ffccd matches 11 run item replace entity @s hotbar.2 with minecraft:yellow_wool{display:{Lore:['"\\u00a7b关注安梦梦关注安梦梦喵谢谢喵"', '"\\u00a7a关注防风草关注防风草草谢谢草"'],"Name":"{\"text\":\"\\u00a7a防风草（生长中）\"}}"}} 11
+execute if score @s ffccd matches 12 run item replace entity @s hotbar.2 with minecraft:yellow_wool{display:{Lore:['"\\u00a7b关注安梦梦关注安梦梦喵谢谢喵"', '"\\u00a7a关注防风草关注防风草草谢谢草"'],"Name":"{\"text\":\"\\u00a7a防风草（生长中）\"}}"}} 12
+execute if score @s ffccd matches 13 run item replace entity @s hotbar.2 with minecraft:yellow_wool{display:{Lore:['"\\u00a7b关注安梦梦关注安梦梦喵谢谢喵"', '"\\u00a7a关注防风草关注防风草草谢谢草"'],"Name":"{\"text\":\"\\u00a7a防风草（生长中）\"}}"}} 13
+execute if score @s ffccd matches 14 run item replace entity @s hotbar.2 with minecraft:yellow_wool{display:{Lore:['"\\u00a7b关注安梦梦关注安梦梦喵谢谢喵"', '"\\u00a7a关注防风草关注防风草草谢谢草"'],"Name":"{\"text\":\"\\u00a7a防风草（生长中）\"}}"}} 14
+execute if score @s ffccd matches 15 run item replace entity @s hotbar.2 with minecraft:yellow_wool{display:{Lore:['"\\u00a7b关注安梦梦关注安梦梦喵谢谢喵"', '"\\u00a7a关注防风草关注防风草草谢谢草"'],"Name":"{\"text\":\"\\u00a7a防风草（生长中）\"}}"}} 15
+execute if score @s ffccd matches 16 run item replace entity @s hotbar.2 with minecraft:yellow_wool{display:{Lore:['"\\u00a7b关注安梦梦关注安梦梦喵谢谢喵"', '"\\u00a7a关注防风草关注防风草草谢谢草"'],"Name":"{\"text\":\"\\u00a7a防风草（生长中）\"}}"}} 16
+execute if score @s ffccd matches 17 run item replace entity @s hotbar.2 with minecraft:yellow_wool{display:{Lore:['"\\u00a7b关注安梦梦关注安梦梦喵谢谢喵"', '"\\u00a7a关注防风草关注防风草草谢谢草"'],"Name":"{\"text\":\"\\u00a7a防风草（生长中）\"}}"}} 17
+execute if score @s ffccd matches 18 run item replace entity @s hotbar.2 with minecraft:yellow_wool{display:{Lore:['"\\u00a7b关注安梦梦关注安梦梦喵谢谢喵"', '"\\u00a7a关注防风草关注防风草草谢谢草"'],"Name":"{\"text\":\"\\u00a7a防风草（生长中）\"}}"}} 18
+execute if score @s ffccd matches 19 run item replace entity @s hotbar.2 with minecraft:yellow_wool{display:{Lore:['"\\u00a7b关注安梦梦关注安梦梦喵谢谢喵"', '"\\u00a7a关注防风草关注防风草草谢谢草"'],"Name":"{\"text\":\"\\u00a7a防风草（生长中）\"}}"}} 19
 execute if score @s bac matches 1 run item replace entity @s hotbar.2 with minecraft:red_wool{display:{Lore:['"\\u00a7b关注安梦梦关注安梦梦喵谢谢喵"', '"\\u00a7a关注防风草关注防风草草谢谢草"'],"Name":"{\"text\":\"\\u00a7a防风草（生长中）\"}}"}} 1
 execute if score @s bac matches 2 run item replace entity @s hotbar.2 with minecraft:red_wool{display:{Lore:['"\\u00a7b关注安梦梦关注安梦梦喵谢谢喵"', '"\\u00a7a关注防风草关注防风草草谢谢草"'],"Name":"{\"text\":\"\\u00a7a防风草（生长中）\"}}"}} 2
 execute if score @s bac matches 3 run item replace entity @s hotbar.2 with minecraft:red_wool{display:{Lore:['"\\u00a7b关注安梦梦关注安梦梦喵谢谢喵"', '"\\u00a7a关注防风草关注防风草草谢谢草"'],"Name":"{\"text\":\"\\u00a7a防风草（生长中）\"}}"}} 3
@@ -71,3 +92,4 @@ execute if score @s bac matches 58 run item replace entity @s hotbar.2 with mine
 execute if score @s bac matches 59 run item replace entity @s hotbar.2 with minecraft:red_wool{display:{Lore:['"\\u00a7b关注安梦梦关注安梦梦喵谢谢喵"', '"\\u00a7a关注防风草关注防风草草谢谢草"'],"Name":"{\"text\":\"\\u00a7a防风草（生长中）\"}}"}} 59
 execute if score @s bac matches 60 run item replace entity @s hotbar.2 with minecraft:red_wool{display:{Lore:['"\\u00a7b关注安梦梦关注安梦梦喵谢谢喵"', '"\\u00a7a关注防风草关注防风草草谢谢草"'],"Name":"{\"text\":\"\\u00a7a防风草（生长中）\"}}"}} 60
 scoreboard players reset @s bac
+

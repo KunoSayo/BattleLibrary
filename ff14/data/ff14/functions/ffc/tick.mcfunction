@@ -5,3 +5,8 @@ execute unless score ffc bau matches 1.. run scoreboard players reset ffc
 
 scoreboard players remove @a[scores={ffccd=1..}] ffccd 1
 scoreboard players reset @a[scores={ffccd=0}] ffccd
+
+execute as @a[tag=ffcbattle] at @s run spawnpoint @s ~ 65 ~
+
+execute as @a[tag=!build] run function ff14:ffcui
+execute as @a[tag=!build] run function ff14:gcd_ui
