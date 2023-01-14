@@ -12,10 +12,22 @@ scoreboard players operation @e[scores={timeToLive=1..}] timeToLive -= 1 consts
 
 
 # Time logic
-scoreboard players add gt time 1
 scoreboard players add time time 1
 scoreboard players remove cd time 1
-execute if score gt time matches 20.. run function battle:_second
+
+## Time logic about mod n
+scoreboard players add m2 time 1
+scoreboard players add m10 time 1
+scoreboard players add m20 time 1
+scoreboard players add m50 time 1
+scoreboard players add m100 time 1
+scoreboard players add m200 time 1
+execute if score m2 time matches 2.. run scoreboard players set m2 time 0
+execute if score m10 time matches 10.. run scoreboard players set m10 time 0
+execute if score m20 time matches 20.. run scoreboard players set m20 time 0
+execute if score m50 time matches 50.. run scoreboard players set m50 time 0
+execute if score m100 time matches 100.. run scoreboard players set m100 time 0
+execute if score m200 time matches 200.. run scoreboard players set m200 time 0
 
 # dmg & heal tick
 

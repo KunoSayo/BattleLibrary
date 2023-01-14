@@ -8,6 +8,10 @@ scoreboard objectives remove dmg
 scoreboard objectives remove dmgcd
 scoreboard objectives remove gcd
 scoreboard objectives remove chant
+scoreboard objectives remove maxchant
+scoreboard objectives remove dmgstats
+scoreboard objectives remove dps
+scoreboard objectives remove dcstats
 
 
 scoreboard objectives remove Health
@@ -15,4 +19,4 @@ scoreboard objectives remove Death
 scoreboard objectives remove walk
 scoreboard objectives remove crouch
 scoreboard objectives remove sneak
-
+scoreboard objectives remove run

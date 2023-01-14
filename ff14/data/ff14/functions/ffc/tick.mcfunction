@@ -10,3 +10,5 @@ execute as @a[tag=ffcbattle] at @s run spawnpoint @s ~ 65 ~
 
 execute as @a[tag=!build] run function ff14:ffcui
 execute as @a[tag=!build] run function ff14:gcd_ui
+
+execute as @e[type=armor_stand, tag=boss] at @s run function ff14:ffc/battle_tick

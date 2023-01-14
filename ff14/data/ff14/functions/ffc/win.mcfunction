@@ -8,3 +8,6 @@ function ff14:win
 schedule function ff14:win 10t append
 schedule function ff14:win 20t append
 schedule function ff14:win 40t append
+
+bossbar remove minecraft:boss
+kill @e[tag=boss]

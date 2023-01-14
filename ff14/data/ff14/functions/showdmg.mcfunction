@@ -1,8 +1,8 @@
 scoreboard players set cc bas 1
 function battle:displayn
 tag @e[tag=displayn, sort=nearest, limit=1] add newshowdmg
-execute if predicate battle:r1d2 run execute as @e[tag=newshowdmg] at @s run tp ~0.5 ~ ~
-execute if predicate battle:r1d2 run execute as @e[tag=newshowdmg] at @s run tp ~-0.5 ~ ~
+execute if predicate battle:r1d3 run execute as @e[tag=newshowdmg, distance=..0.125] at @s run tp ~0.5 ~ ~
+execute if predicate battle:r1d2 run execute as @e[tag=newshowdmg, distance=..0.125] at @s run tp ~-0.5 ~ ~
 execute if predicate battle:r1d2 run execute as @e[tag=newshowdmg] at @s run tp ~ ~ ~0.5
 execute if predicate battle:r1d2 run execute as @e[tag=newshowdmg] at @s run tp ~ ~ ~-0.5
 scoreboard players set @e[tag=newshowdmg] timeToLive 100

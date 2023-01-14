@@ -1,8 +1,9 @@
 setblock 1 8 1 grass_block
-execute unless score cc bas matches 1..4 run setblock 1 9 1 minecraft:acacia_sign{Text1:'{"score":{"name":"n", "objective":"bas"}}'} destroy
-execute if score cc bas matches 1 run setblock 1 9 1 minecraft:acacia_sign{Text1:'{"score":{"name":"n", "objective":"bas"}, "color":"red"}'} destroy
-execute if score cc bas matches 2 run setblock 1 9 1 minecraft:acacia_sign{Text1:'{"score":{"name":"n", "objective":"bas"}, "color":"green"}'} destroy
-execute if score cc bas matches 3 run setblock 1 9 1 minecraft:acacia_sign{Text1:'{"score":{"name":"n", "objective":"bas"}, "color":"blue"}'} destroy
-execute if score cc bas matches 4 run setblock 1 9 1 minecraft:acacia_sign{Text1:'{"score":{"name":"n", "objective":"bas"}, "color":"yellow"}'} destroy
+execute unless score cc bas matches 1..4 run setblock 1 9 1 minecraft:acacia_sign{Text1:'{"score":{"name":"n", "objective":"bas"}}', Text2:'[{"score":{"name":"n", "objective":"bas"}}, {"text":"!"}]'} destroy
+execute if score cc bas matches 1 run setblock 1 9 1 minecraft:acacia_sign{Text1:'{"score":{"name":"n", "objective":"bas"}, "color":"red"}', Text2:'[{"score":{"name":"n", "objective":"bas"}, "color":"red"}, {"text":"!", "color":"red"}]'} destroy
+execute if score cc bas matches 2 run setblock 1 9 1 minecraft:acacia_sign{Text1:'{"score":{"name":"n", "objective":"bas"}, "color":"green"}', Text2:'[{"score":{"name":"n", "objective":"bas"}, "color":"green"}, {"text":"!", "color":"green"}]'} destroy
+execute if score cc bas matches 3 run setblock 1 9 1 minecraft:acacia_sign{Text1:'{"score":{"name":"n", "objective":"bas"}, "color":"blue"}', Text2:'[{"score":{"name":"n", "objective":"bas"}, "color":"blue"}, {"text":"!", "color":"blue"}]'} destroy
+execute if score cc bas matches 4 run setblock 1 9 1 minecraft:acacia_sign{Text1:'{"score":{"name":"n", "objective":"bas"}, "color":"yellow"}', Text2:'[{"score":{"name":"n", "objective":"bas"}, "color":"yellow"}, {"text":"!", "color":"yellow"}]'} destroy
 summon minecraft:armor_stand ~ ~ ~ {CustomName:"{\"score\":{\"name\":\"1\", \"objective\":\"consts\"}}", CustomNameVisible:1b, Invisible: 1b, Tags:["displayn", "battleas"], NoGravity:1b}
 data modify entity @e[type=minecraft:armor_stand,limit=1, sort=nearest, tag=displayn] CustomName set from block 1 9 1 Text1
+execute if score ch bas matches 1 run data modify entity @e[type=minecraft:armor_stand,limit=1, sort=nearest, tag=displayn] CustomName set from block 1 9 1 Text2
