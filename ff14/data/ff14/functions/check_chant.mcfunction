@@ -10,4 +10,5 @@ execute if score type bac matches 20..25 run scoreboard players set @s chant 30
 execute if score type bac matches 26 run scoreboard players set @s maxchant 160
 execute if score type bac matches 26 run scoreboard players set @s chant 160
 
-execute if score type bac matches 20..26 run scoreboard players set @s gcd 50
+execute if score type bac matches 19..26 run scoreboard players set @s gcd 50
+execute if score type bac matches 19 run function ff14:dd

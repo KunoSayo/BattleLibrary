@@ -2,7 +2,7 @@
 蓝花20 heal
 ffc15 absorb
 复活26 respawn
-
+毁坏19 dd
 
 
 "boss的血量就50529了"
