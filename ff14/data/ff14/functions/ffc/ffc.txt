@@ -1,0 +1,25 @@
+闪灼21 atk
+蓝花20 heal
+ffc15 absorb
+复活26 respawn
+
+
+
+"boss的血量就50529了"
+
+由于没有t【懒】
+死刑改为全屏高伤害aoe
+去掉平a
+
+
+line aoe:
+data merge entity @e[limit=1,tag=boss, type=minecraft:armor_stand] {Pose:{RightArm:[-10.0f, 180.0f, 180.0f]}}
+
+circle aoe:
+data merge entity @e[limit=1,tag=boss, type=minecraft:armor_stand] {Pose:{RightArm:[-10.0f, 0.0f, 90.0f]}}
+
+normal:
+data merge entity @e[limit=1,tag=boss, type=minecraft:armor_stand] {Pose:{RightArm:[-10.0f, 0.0f, 10.0f]}}
+
+chant:
+data merge entity @e[limit=1,tag=boss, type=minecraft:armor_stand] {Pose:{RightArm:[-90.0f, 0.0f, 10.0f]}}

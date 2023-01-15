@@ -67,6 +67,9 @@ execute as @a[scores={chant=1..}] run scoreboard players remove @s chant 1
 execute as @a[scores={gcd=1..}] run scoreboard players remove @s gcd 1
 
 
+# safe
+kill @e[type=minecraft:tnt_minecart]
+kill @e[type=minecraft:tnt]
 
 
 function battleapi:posttick

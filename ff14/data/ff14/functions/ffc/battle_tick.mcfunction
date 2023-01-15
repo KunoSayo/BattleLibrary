@@ -11,13 +11,15 @@ execute if score p bac matches 0 run bossbar set minecraft:boss name [{"text":"0
 
 scoreboard players add bosstime time 1
 
-execute as @a run scoreboard players operation @s dps = @s dmgstats
-execute as @a run scoreboard players operation @s dps *= 200 consts
-execute as @a run scoreboard players operation @s dps *= 10 consts
-execute as @a run scoreboard players operation @s dps /= bosstime time
+execute as @a[gamemode=adventure] run scoreboard players operation @s dps = @s dmgstats
+execute as @a[gamemode=adventure] run scoreboard players operation @s dps *= 200 consts
+execute as @a[gamemode=adventure] run scoreboard players operation @s dps *= 10 consts
+execute as @a[gamemode=adventure] run scoreboard players operation @s dps /= bosstime time
 
-scoreboard objectives setdisplay sidebar dps
-# dps more powerful :>
-# execute unless score m200 time matches 100.. run scoreboard objectives setdisplay sidebar dmgstats
+scoreboard players set Total dps 0
+scoreboard players operation Total dps += @a[scores={dps=1..}] dps
+
 
 execute if score bosshp bau matches ..0 run function ff14:ffc/win
+
+execute if score bosstime time matches 0.. run function ff14:ffc/p1
