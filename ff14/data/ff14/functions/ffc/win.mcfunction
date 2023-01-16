@@ -10,4 +10,5 @@ schedule function ff14:win 20t append
 schedule function ff14:win 40t append
 
 bossbar remove minecraft:boss
+bossbar remove bosschant
 kill @e[tag=boss]

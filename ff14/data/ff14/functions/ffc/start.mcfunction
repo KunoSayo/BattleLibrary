@@ -1,6 +1,7 @@
 fill -20 70 -20 20 74 20 barrier
 fill -20 72 -20 20 72 20 air
 bossbar add boss [{"text":""}]
+bossbar add bosschant [{"text":""}]
 bossbar set minecraft:boss name [{"text":"100% 巴尔巴莉希娅", "color":"red"}]
 bossbar set minecraft:boss max 50529
 bossbar set minecraft:boss value 50529
@@ -8,8 +9,14 @@ bossbar set minecraft:boss color red
 
 bossbar set minecraft:boss visible true
 bossbar set minecraft:boss players @a
+
+
+bossbar set minecraft:bosschant color yellow
+
 scoreboard players set 50529 consts 50529
 scoreboard players set bosshp bau 50529
+
+scoreboard players set bosschantmax bau 100
 
 kill @e[tag=boss]
 

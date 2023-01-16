@@ -37,7 +37,7 @@ mod scripts {
     pub fn circles() -> ScriptReturn {
         let mut rad = 0.5;
         while rad <= 25.0 {
-            let mut file = gen_file(&format!("circle{:.1}", rad), OVERWRITE)?;
+            let mut file = gen_file(&format!("circle/{:.1}", rad), OVERWRITE)?;
             let step = if rad <= 1.0 {
                 10.0
             } else if rad <= 3.0 {
@@ -103,10 +103,7 @@ mod scripts {
     pub fn tri_aoe() -> ScriptReturn {
         let angles = [15.0, 22.5, 30.0, 37.5, 45.0, 60.0, 67.5, 75.0];
         for angle in angles {
-            let mut file = match gen_ff14(&format!("tri{:.1}aoe", angle), OVERWRITE) {
-                Ok(f) => f,
-                Err(_) => continue
-            };
+            let mut file = match gen_ff14(&format!("tri/{:.1}", angle), OVERWRITE)?;
             let rev = 90.0f64 - angle;
             let rev_rad = rev.to_radians();
             let (sin, cos) = rev_rad.sin_cos();
@@ -117,7 +114,7 @@ mod scripts {
             let mut cur_forward = 0.0;
             while cur_left <= 20.0 {
                 let mut forward_step = 0.0;
-                while forward_step + cur_forward <= 40.0 {
+                while forward_step + cur_forward <= 30.0 {
                     let forward = cur_forward + forward_step;
                     writeln!(file, "execute positioned ^{:.5} ^ ^{:.5} run function ff14:tri_aoe_cb", cur_left, forward)?;
                     if cur_left > 0.0 {
