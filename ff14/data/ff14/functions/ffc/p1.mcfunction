@@ -6,14 +6,12 @@ execute if score bosstime time matches 200 run tellraw @a {"text":"\u00a7e巴尔
 execute if score bosstime time matches 200 run bossbar set minecraft:bosschant name {"text":"\u00a7e虚空飙风"}
 execute if score bosstime time matches 200 run function ff14:ffc/chant_phase
 
-execute if score bosstime time matches 300 run tellraw @a {"text":"\u00a7e巴尔巴莉希娅咏唱了“虚空飙风”。"}
-execute if score bosstime time matches 300 run function ff14:ffc/normal_phase
+execute if score bosstime time matches 300 run function ff14:ffc/void_wind
 # 15s
-# todo: all damage 3 calc and effects
+
 
 # 23s
-execute if score bosstime time matches 460 run tellraw @a {"text":"\u00a7e巴尔巴莉希娅发动了“愤怒风暴”。"}
-# todo: all damage 1 calc and effects
+execute if score bosstime time matches 460 run function ff14:ffc/angry_wind
 
 
 execute if score bosstime time matches 499 run tellraw @a {"text":"\u00a7a巴尔巴莉希娅：你能看穿这招吗？"}

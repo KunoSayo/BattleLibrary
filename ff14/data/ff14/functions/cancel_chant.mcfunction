@@ -42,6 +42,7 @@ title @s[tag=respawn, scores={bac=2}] actionbar [{"text":"中断 \u00a76\u00a7m�
 title @s[tag=respawn, scores={bac=1}] actionbar [{"text":"中断 \u00a76\u00a7m复活\u00a77\u00a7m 发动中 #########-\u00a7r | "}, {"score":{"name":"*", "objective":"chant"}}]
 title @s[tag=respawn, scores={bac=0}] actionbar [{"text":"中断 \u00a76\u00a7m复活\u00a77\u00a7m 发动中 #########+\u00a7r | "}, {"score":{"name":"*", "objective":"chant"}}]
 title @s[tag=respawn, scores={chant=0}] actionbar [{"text":"中断 \u00a76\u00a7m复活\u00a77\u00a7m 发动中 ##########\u00a7r | "}, {"score":{"name":"*", "objective":"chant"}}]
+execute if entity @s[tag=respawn] run say 中断了复活的咏唱
 tag @s[tag=respawn, scores={chant=0}] remove respawn
 
 

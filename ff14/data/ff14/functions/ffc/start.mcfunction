@@ -1,3 +1,9 @@
+function battle:init
+
+kill @e[type=armor_stand]
+
+execute store result score @s Health run data get entity @s Health
+
 fill -20 70 -20 20 74 20 barrier
 fill -20 72 -20 20 72 20 air
 bossbar add boss [{"text":""}]
@@ -36,3 +42,9 @@ scoreboard objectives setdisplay sidebar dps
 
 
 tellraw @a {"text":"战斗开始！", "color":"gray"}
+clear @a[gamemode=adventure]
+item replace entity @a[gamemode=adventure] hotbar.5 with minecraft:golden_apple
+tp @a[gamemode=adventure] 0 65 12 facing 0 65 0
+
+team modify H collisionRule never
+team join H @a

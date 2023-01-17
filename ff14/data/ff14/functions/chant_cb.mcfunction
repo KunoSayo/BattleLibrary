@@ -33,6 +33,7 @@ execute if entity @s[tag=heal, scores={chant=0}] at @s run function ff14:heal
 tag @s[tag=heal, scores={chant=0}] remove heal
 
 title @s[tag=respawn, scores={bac=10}] actionbar [{"text":"\u00a76复活 \u00a77 发动中 ---------- \u00a7r| "}, {"score":{"name":"*", "objective":"chant"}}]
+execute if entity @s[tag=respawn, scores={bac=10}] run say 正在读条复活
 title @s[tag=respawn, scores={bac=9}] actionbar [{"text":"\u00a76复活 \u00a77 发动中 #--------- \u00a7r| "}, {"score":{"name":"*", "objective":"chant"}}]
 title @s[tag=respawn, scores={bac=8}] actionbar [{"text":"\u00a76复活 \u00a77 发动中 ##-------- \u00a7r| "}, {"score":{"name":"*", "objective":"chant"}}]
 title @s[tag=respawn, scores={bac=7}] actionbar [{"text":"\u00a76复活 \u00a77 发动中 ###------- \u00a7r| "}, {"score":{"name":"*", "objective":"chant"}}]

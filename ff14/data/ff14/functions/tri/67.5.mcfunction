@@ -180,6 +180,8 @@ execute positioned ^0.50000 ^ ^29.20711 run function ff14:tri_aoe_cb
 execute positioned ^-0.50000 ^ ^29.20711 run function ff14:tri_aoe_cb
 execute positioned ^0.50000 ^ ^29.70711 run function ff14:tri_aoe_cb
 execute positioned ^-0.50000 ^ ^29.70711 run function ff14:tri_aoe_cb
+execute positioned ^0.25000 ^ ^0.10355 run function ff14:tri_aoe_cb
+execute positioned ^-0.25000 ^ ^0.10355 run function ff14:tri_aoe_cb
 execute positioned ^1.00000 ^ ^0.41421 run function ff14:tri_aoe_cb
 execute positioned ^-1.00000 ^ ^0.41421 run function ff14:tri_aoe_cb
 execute positioned ^1.00000 ^ ^0.91421 run function ff14:tri_aoe_cb
@@ -300,6 +302,8 @@ execute positioned ^1.00000 ^ ^29.41421 run function ff14:tri_aoe_cb
 execute positioned ^-1.00000 ^ ^29.41421 run function ff14:tri_aoe_cb
 execute positioned ^1.00000 ^ ^29.91421 run function ff14:tri_aoe_cb
 execute positioned ^-1.00000 ^ ^29.91421 run function ff14:tri_aoe_cb
+execute positioned ^0.75000 ^ ^0.31066 run function ff14:tri_aoe_cb
+execute positioned ^-0.75000 ^ ^0.31066 run function ff14:tri_aoe_cb
 execute positioned ^1.50000 ^ ^0.62132 run function ff14:tri_aoe_cb
 execute positioned ^-1.50000 ^ ^0.62132 run function ff14:tri_aoe_cb
 execute positioned ^1.50000 ^ ^1.12132 run function ff14:tri_aoe_cb
@@ -418,6 +422,8 @@ execute positioned ^1.50000 ^ ^29.12132 run function ff14:tri_aoe_cb
 execute positioned ^-1.50000 ^ ^29.12132 run function ff14:tri_aoe_cb
 execute positioned ^1.50000 ^ ^29.62132 run function ff14:tri_aoe_cb
 execute positioned ^-1.50000 ^ ^29.62132 run function ff14:tri_aoe_cb
+execute positioned ^1.25000 ^ ^0.51777 run function ff14:tri_aoe_cb
+execute positioned ^-1.25000 ^ ^0.51777 run function ff14:tri_aoe_cb
 execute positioned ^2.00000 ^ ^0.82843 run function ff14:tri_aoe_cb
 execute positioned ^-2.00000 ^ ^0.82843 run function ff14:tri_aoe_cb
 execute positioned ^2.00000 ^ ^1.32843 run function ff14:tri_aoe_cb
@@ -536,6 +542,8 @@ execute positioned ^2.00000 ^ ^29.32843 run function ff14:tri_aoe_cb
 execute positioned ^-2.00000 ^ ^29.32843 run function ff14:tri_aoe_cb
 execute positioned ^2.00000 ^ ^29.82843 run function ff14:tri_aoe_cb
 execute positioned ^-2.00000 ^ ^29.82843 run function ff14:tri_aoe_cb
+execute positioned ^1.75000 ^ ^0.72487 run function ff14:tri_aoe_cb
+execute positioned ^-1.75000 ^ ^0.72487 run function ff14:tri_aoe_cb
 execute positioned ^2.50000 ^ ^1.03553 run function ff14:tri_aoe_cb
 execute positioned ^-2.50000 ^ ^1.03553 run function ff14:tri_aoe_cb
 execute positioned ^2.50000 ^ ^1.53553 run function ff14:tri_aoe_cb
@@ -652,6 +660,8 @@ execute positioned ^2.50000 ^ ^29.03553 run function ff14:tri_aoe_cb
 execute positioned ^-2.50000 ^ ^29.03553 run function ff14:tri_aoe_cb
 execute positioned ^2.50000 ^ ^29.53553 run function ff14:tri_aoe_cb
 execute positioned ^-2.50000 ^ ^29.53553 run function ff14:tri_aoe_cb
+execute positioned ^2.25000 ^ ^0.93198 run function ff14:tri_aoe_cb
+execute positioned ^-2.25000 ^ ^0.93198 run function ff14:tri_aoe_cb
 execute positioned ^3.00000 ^ ^1.24264 run function ff14:tri_aoe_cb
 execute positioned ^-3.00000 ^ ^1.24264 run function ff14:tri_aoe_cb
 execute positioned ^3.00000 ^ ^1.74264 run function ff14:tri_aoe_cb
@@ -768,6 +778,8 @@ execute positioned ^3.00000 ^ ^29.24264 run function ff14:tri_aoe_cb
 execute positioned ^-3.00000 ^ ^29.24264 run function ff14:tri_aoe_cb
 execute positioned ^3.00000 ^ ^29.74264 run function ff14:tri_aoe_cb
 execute positioned ^-3.00000 ^ ^29.74264 run function ff14:tri_aoe_cb
+execute positioned ^2.75000 ^ ^1.13909 run function ff14:tri_aoe_cb
+execute positioned ^-2.75000 ^ ^1.13909 run function ff14:tri_aoe_cb
 execute positioned ^3.50000 ^ ^1.44975 run function ff14:tri_aoe_cb
 execute positioned ^-3.50000 ^ ^1.44975 run function ff14:tri_aoe_cb
 execute positioned ^3.50000 ^ ^1.94975 run function ff14:tri_aoe_cb
@@ -884,6 +896,8 @@ execute positioned ^3.50000 ^ ^29.44975 run function ff14:tri_aoe_cb
 execute positioned ^-3.50000 ^ ^29.44975 run function ff14:tri_aoe_cb
 execute positioned ^3.50000 ^ ^29.94975 run function ff14:tri_aoe_cb
 execute positioned ^-3.50000 ^ ^29.94975 run function ff14:tri_aoe_cb
+execute positioned ^3.25000 ^ ^1.34619 run function ff14:tri_aoe_cb
+execute positioned ^-3.25000 ^ ^1.34619 run function ff14:tri_aoe_cb
 execute positioned ^4.00000 ^ ^1.65685 run function ff14:tri_aoe_cb
 execute positioned ^-4.00000 ^ ^1.65685 run function ff14:tri_aoe_cb
 execute positioned ^4.00000 ^ ^2.15685 run function ff14:tri_aoe_cb
@@ -998,6 +1012,8 @@ execute positioned ^4.00000 ^ ^29.15685 run function ff14:tri_aoe_cb
 execute positioned ^-4.00000 ^ ^29.15685 run function ff14:tri_aoe_cb
 execute positioned ^4.00000 ^ ^29.65685 run function ff14:tri_aoe_cb
 execute positioned ^-4.00000 ^ ^29.65685 run function ff14:tri_aoe_cb
+execute positioned ^3.75000 ^ ^1.55330 run function ff14:tri_aoe_cb
+execute positioned ^-3.75000 ^ ^1.55330 run function ff14:tri_aoe_cb
 execute positioned ^4.50000 ^ ^1.86396 run function ff14:tri_aoe_cb
 execute positioned ^-4.50000 ^ ^1.86396 run function ff14:tri_aoe_cb
 execute positioned ^4.50000 ^ ^2.36396 run function ff14:tri_aoe_cb
@@ -1112,6 +1128,8 @@ execute positioned ^4.50000 ^ ^29.36396 run function ff14:tri_aoe_cb
 execute positioned ^-4.50000 ^ ^29.36396 run function ff14:tri_aoe_cb
 execute positioned ^4.50000 ^ ^29.86396 run function ff14:tri_aoe_cb
 execute positioned ^-4.50000 ^ ^29.86396 run function ff14:tri_aoe_cb
+execute positioned ^4.25000 ^ ^1.76041 run function ff14:tri_aoe_cb
+execute positioned ^-4.25000 ^ ^1.76041 run function ff14:tri_aoe_cb
 execute positioned ^5.00000 ^ ^2.07107 run function ff14:tri_aoe_cb
 execute positioned ^-5.00000 ^ ^2.07107 run function ff14:tri_aoe_cb
 execute positioned ^5.00000 ^ ^2.57107 run function ff14:tri_aoe_cb
@@ -1224,6 +1242,8 @@ execute positioned ^5.00000 ^ ^29.07107 run function ff14:tri_aoe_cb
 execute positioned ^-5.00000 ^ ^29.07107 run function ff14:tri_aoe_cb
 execute positioned ^5.00000 ^ ^29.57107 run function ff14:tri_aoe_cb
 execute positioned ^-5.00000 ^ ^29.57107 run function ff14:tri_aoe_cb
+execute positioned ^4.75000 ^ ^1.96751 run function ff14:tri_aoe_cb
+execute positioned ^-4.75000 ^ ^1.96751 run function ff14:tri_aoe_cb
 execute positioned ^5.50000 ^ ^2.27817 run function ff14:tri_aoe_cb
 execute positioned ^-5.50000 ^ ^2.27817 run function ff14:tri_aoe_cb
 execute positioned ^5.50000 ^ ^2.77817 run function ff14:tri_aoe_cb
@@ -1336,6 +1356,8 @@ execute positioned ^5.50000 ^ ^29.27817 run function ff14:tri_aoe_cb
 execute positioned ^-5.50000 ^ ^29.27817 run function ff14:tri_aoe_cb
 execute positioned ^5.50000 ^ ^29.77817 run function ff14:tri_aoe_cb
 execute positioned ^-5.50000 ^ ^29.77817 run function ff14:tri_aoe_cb
+execute positioned ^5.25000 ^ ^2.17462 run function ff14:tri_aoe_cb
+execute positioned ^-5.25000 ^ ^2.17462 run function ff14:tri_aoe_cb
 execute positioned ^6.00000 ^ ^2.48528 run function ff14:tri_aoe_cb
 execute positioned ^-6.00000 ^ ^2.48528 run function ff14:tri_aoe_cb
 execute positioned ^6.00000 ^ ^2.98528 run function ff14:tri_aoe_cb
@@ -1448,6 +1470,8 @@ execute positioned ^6.00000 ^ ^29.48528 run function ff14:tri_aoe_cb
 execute positioned ^-6.00000 ^ ^29.48528 run function ff14:tri_aoe_cb
 execute positioned ^6.00000 ^ ^29.98528 run function ff14:tri_aoe_cb
 execute positioned ^-6.00000 ^ ^29.98528 run function ff14:tri_aoe_cb
+execute positioned ^5.75000 ^ ^2.38173 run function ff14:tri_aoe_cb
+execute positioned ^-5.75000 ^ ^2.38173 run function ff14:tri_aoe_cb
 execute positioned ^6.50000 ^ ^2.69239 run function ff14:tri_aoe_cb
 execute positioned ^-6.50000 ^ ^2.69239 run function ff14:tri_aoe_cb
 execute positioned ^6.50000 ^ ^3.19239 run function ff14:tri_aoe_cb
@@ -1558,6 +1582,8 @@ execute positioned ^6.50000 ^ ^29.19239 run function ff14:tri_aoe_cb
 execute positioned ^-6.50000 ^ ^29.19239 run function ff14:tri_aoe_cb
 execute positioned ^6.50000 ^ ^29.69239 run function ff14:tri_aoe_cb
 execute positioned ^-6.50000 ^ ^29.69239 run function ff14:tri_aoe_cb
+execute positioned ^6.25000 ^ ^2.58883 run function ff14:tri_aoe_cb
+execute positioned ^-6.25000 ^ ^2.58883 run function ff14:tri_aoe_cb
 execute positioned ^7.00000 ^ ^2.89949 run function ff14:tri_aoe_cb
 execute positioned ^-7.00000 ^ ^2.89949 run function ff14:tri_aoe_cb
 execute positioned ^7.00000 ^ ^3.39949 run function ff14:tri_aoe_cb
@@ -1668,6 +1694,8 @@ execute positioned ^7.00000 ^ ^29.39949 run function ff14:tri_aoe_cb
 execute positioned ^-7.00000 ^ ^29.39949 run function ff14:tri_aoe_cb
 execute positioned ^7.00000 ^ ^29.89949 run function ff14:tri_aoe_cb
 execute positioned ^-7.00000 ^ ^29.89949 run function ff14:tri_aoe_cb
+execute positioned ^6.75000 ^ ^2.79594 run function ff14:tri_aoe_cb
+execute positioned ^-6.75000 ^ ^2.79594 run function ff14:tri_aoe_cb
 execute positioned ^7.50000 ^ ^3.10660 run function ff14:tri_aoe_cb
 execute positioned ^-7.50000 ^ ^3.10660 run function ff14:tri_aoe_cb
 execute positioned ^7.50000 ^ ^3.60660 run function ff14:tri_aoe_cb
@@ -1776,6 +1804,8 @@ execute positioned ^7.50000 ^ ^29.10660 run function ff14:tri_aoe_cb
 execute positioned ^-7.50000 ^ ^29.10660 run function ff14:tri_aoe_cb
 execute positioned ^7.50000 ^ ^29.60660 run function ff14:tri_aoe_cb
 execute positioned ^-7.50000 ^ ^29.60660 run function ff14:tri_aoe_cb
+execute positioned ^7.25000 ^ ^3.00305 run function ff14:tri_aoe_cb
+execute positioned ^-7.25000 ^ ^3.00305 run function ff14:tri_aoe_cb
 execute positioned ^8.00000 ^ ^3.31371 run function ff14:tri_aoe_cb
 execute positioned ^-8.00000 ^ ^3.31371 run function ff14:tri_aoe_cb
 execute positioned ^8.00000 ^ ^3.81371 run function ff14:tri_aoe_cb
@@ -1884,6 +1914,8 @@ execute positioned ^8.00000 ^ ^29.31371 run function ff14:tri_aoe_cb
 execute positioned ^-8.00000 ^ ^29.31371 run function ff14:tri_aoe_cb
 execute positioned ^8.00000 ^ ^29.81371 run function ff14:tri_aoe_cb
 execute positioned ^-8.00000 ^ ^29.81371 run function ff14:tri_aoe_cb
+execute positioned ^7.75000 ^ ^3.21016 run function ff14:tri_aoe_cb
+execute positioned ^-7.75000 ^ ^3.21016 run function ff14:tri_aoe_cb
 execute positioned ^8.50000 ^ ^3.52082 run function ff14:tri_aoe_cb
 execute positioned ^-8.50000 ^ ^3.52082 run function ff14:tri_aoe_cb
 execute positioned ^8.50000 ^ ^4.02082 run function ff14:tri_aoe_cb
@@ -1990,6 +2022,8 @@ execute positioned ^8.50000 ^ ^29.02082 run function ff14:tri_aoe_cb
 execute positioned ^-8.50000 ^ ^29.02082 run function ff14:tri_aoe_cb
 execute positioned ^8.50000 ^ ^29.52082 run function ff14:tri_aoe_cb
 execute positioned ^-8.50000 ^ ^29.52082 run function ff14:tri_aoe_cb
+execute positioned ^8.25000 ^ ^3.41726 run function ff14:tri_aoe_cb
+execute positioned ^-8.25000 ^ ^3.41726 run function ff14:tri_aoe_cb
 execute positioned ^9.00000 ^ ^3.72792 run function ff14:tri_aoe_cb
 execute positioned ^-9.00000 ^ ^3.72792 run function ff14:tri_aoe_cb
 execute positioned ^9.00000 ^ ^4.22792 run function ff14:tri_aoe_cb
@@ -2096,6 +2130,8 @@ execute positioned ^9.00000 ^ ^29.22792 run function ff14:tri_aoe_cb
 execute positioned ^-9.00000 ^ ^29.22792 run function ff14:tri_aoe_cb
 execute positioned ^9.00000 ^ ^29.72792 run function ff14:tri_aoe_cb
 execute positioned ^-9.00000 ^ ^29.72792 run function ff14:tri_aoe_cb
+execute positioned ^8.75000 ^ ^3.62437 run function ff14:tri_aoe_cb
+execute positioned ^-8.75000 ^ ^3.62437 run function ff14:tri_aoe_cb
 execute positioned ^9.50000 ^ ^3.93503 run function ff14:tri_aoe_cb
 execute positioned ^-9.50000 ^ ^3.93503 run function ff14:tri_aoe_cb
 execute positioned ^9.50000 ^ ^4.43503 run function ff14:tri_aoe_cb
@@ -2202,6 +2238,8 @@ execute positioned ^9.50000 ^ ^29.43503 run function ff14:tri_aoe_cb
 execute positioned ^-9.50000 ^ ^29.43503 run function ff14:tri_aoe_cb
 execute positioned ^9.50000 ^ ^29.93503 run function ff14:tri_aoe_cb
 execute positioned ^-9.50000 ^ ^29.93503 run function ff14:tri_aoe_cb
+execute positioned ^9.25000 ^ ^3.83148 run function ff14:tri_aoe_cb
+execute positioned ^-9.25000 ^ ^3.83148 run function ff14:tri_aoe_cb
 execute positioned ^10.00000 ^ ^4.14214 run function ff14:tri_aoe_cb
 execute positioned ^-10.00000 ^ ^4.14214 run function ff14:tri_aoe_cb
 execute positioned ^10.00000 ^ ^4.64214 run function ff14:tri_aoe_cb
@@ -2306,6 +2344,8 @@ execute positioned ^10.00000 ^ ^29.14214 run function ff14:tri_aoe_cb
 execute positioned ^-10.00000 ^ ^29.14214 run function ff14:tri_aoe_cb
 execute positioned ^10.00000 ^ ^29.64214 run function ff14:tri_aoe_cb
 execute positioned ^-10.00000 ^ ^29.64214 run function ff14:tri_aoe_cb
+execute positioned ^9.75000 ^ ^4.03858 run function ff14:tri_aoe_cb
+execute positioned ^-9.75000 ^ ^4.03858 run function ff14:tri_aoe_cb
 execute positioned ^10.50000 ^ ^4.34924 run function ff14:tri_aoe_cb
 execute positioned ^-10.50000 ^ ^4.34924 run function ff14:tri_aoe_cb
 execute positioned ^10.50000 ^ ^4.84924 run function ff14:tri_aoe_cb
@@ -2410,6 +2450,8 @@ execute positioned ^10.50000 ^ ^29.34924 run function ff14:tri_aoe_cb
 execute positioned ^-10.50000 ^ ^29.34924 run function ff14:tri_aoe_cb
 execute positioned ^10.50000 ^ ^29.84924 run function ff14:tri_aoe_cb
 execute positioned ^-10.50000 ^ ^29.84924 run function ff14:tri_aoe_cb
+execute positioned ^10.25000 ^ ^4.24569 run function ff14:tri_aoe_cb
+execute positioned ^-10.25000 ^ ^4.24569 run function ff14:tri_aoe_cb
 execute positioned ^11.00000 ^ ^4.55635 run function ff14:tri_aoe_cb
 execute positioned ^-11.00000 ^ ^4.55635 run function ff14:tri_aoe_cb
 execute positioned ^11.00000 ^ ^5.05635 run function ff14:tri_aoe_cb
@@ -2512,6 +2554,8 @@ execute positioned ^11.00000 ^ ^29.05635 run function ff14:tri_aoe_cb
 execute positioned ^-11.00000 ^ ^29.05635 run function ff14:tri_aoe_cb
 execute positioned ^11.00000 ^ ^29.55635 run function ff14:tri_aoe_cb
 execute positioned ^-11.00000 ^ ^29.55635 run function ff14:tri_aoe_cb
+execute positioned ^10.75000 ^ ^4.45280 run function ff14:tri_aoe_cb
+execute positioned ^-10.75000 ^ ^4.45280 run function ff14:tri_aoe_cb
 execute positioned ^11.50000 ^ ^4.76346 run function ff14:tri_aoe_cb
 execute positioned ^-11.50000 ^ ^4.76346 run function ff14:tri_aoe_cb
 execute positioned ^11.50000 ^ ^5.26346 run function ff14:tri_aoe_cb
@@ -2614,6 +2658,8 @@ execute positioned ^11.50000 ^ ^29.26346 run function ff14:tri_aoe_cb
 execute positioned ^-11.50000 ^ ^29.26346 run function ff14:tri_aoe_cb
 execute positioned ^11.50000 ^ ^29.76346 run function ff14:tri_aoe_cb
 execute positioned ^-11.50000 ^ ^29.76346 run function ff14:tri_aoe_cb
+execute positioned ^11.25000 ^ ^4.65990 run function ff14:tri_aoe_cb
+execute positioned ^-11.25000 ^ ^4.65990 run function ff14:tri_aoe_cb
 execute positioned ^12.00000 ^ ^4.97056 run function ff14:tri_aoe_cb
 execute positioned ^-12.00000 ^ ^4.97056 run function ff14:tri_aoe_cb
 execute positioned ^12.00000 ^ ^5.47056 run function ff14:tri_aoe_cb
@@ -2716,6 +2762,8 @@ execute positioned ^12.00000 ^ ^29.47056 run function ff14:tri_aoe_cb
 execute positioned ^-12.00000 ^ ^29.47056 run function ff14:tri_aoe_cb
 execute positioned ^12.00000 ^ ^29.97056 run function ff14:tri_aoe_cb
 execute positioned ^-12.00000 ^ ^29.97056 run function ff14:tri_aoe_cb
+execute positioned ^11.75000 ^ ^4.86701 run function ff14:tri_aoe_cb
+execute positioned ^-11.75000 ^ ^4.86701 run function ff14:tri_aoe_cb
 execute positioned ^12.50000 ^ ^5.17767 run function ff14:tri_aoe_cb
 execute positioned ^-12.50000 ^ ^5.17767 run function ff14:tri_aoe_cb
 execute positioned ^12.50000 ^ ^5.67767 run function ff14:tri_aoe_cb
@@ -2816,6 +2864,8 @@ execute positioned ^12.50000 ^ ^29.17767 run function ff14:tri_aoe_cb
 execute positioned ^-12.50000 ^ ^29.17767 run function ff14:tri_aoe_cb
 execute positioned ^12.50000 ^ ^29.67767 run function ff14:tri_aoe_cb
 execute positioned ^-12.50000 ^ ^29.67767 run function ff14:tri_aoe_cb
+execute positioned ^12.25000 ^ ^5.07412 run function ff14:tri_aoe_cb
+execute positioned ^-12.25000 ^ ^5.07412 run function ff14:tri_aoe_cb
 execute positioned ^13.00000 ^ ^5.38478 run function ff14:tri_aoe_cb
 execute positioned ^-13.00000 ^ ^5.38478 run function ff14:tri_aoe_cb
 execute positioned ^13.00000 ^ ^5.88478 run function ff14:tri_aoe_cb
@@ -2916,6 +2966,8 @@ execute positioned ^13.00000 ^ ^29.38478 run function ff14:tri_aoe_cb
 execute positioned ^-13.00000 ^ ^29.38478 run function ff14:tri_aoe_cb
 execute positioned ^13.00000 ^ ^29.88478 run function ff14:tri_aoe_cb
 execute positioned ^-13.00000 ^ ^29.88478 run function ff14:tri_aoe_cb
+execute positioned ^12.75000 ^ ^5.28122 run function ff14:tri_aoe_cb
+execute positioned ^-12.75000 ^ ^5.28122 run function ff14:tri_aoe_cb
 execute positioned ^13.50000 ^ ^5.59188 run function ff14:tri_aoe_cb
 execute positioned ^-13.50000 ^ ^5.59188 run function ff14:tri_aoe_cb
 execute positioned ^13.50000 ^ ^6.09188 run function ff14:tri_aoe_cb
@@ -3014,6 +3066,8 @@ execute positioned ^13.50000 ^ ^29.09188 run function ff14:tri_aoe_cb
 execute positioned ^-13.50000 ^ ^29.09188 run function ff14:tri_aoe_cb
 execute positioned ^13.50000 ^ ^29.59188 run function ff14:tri_aoe_cb
 execute positioned ^-13.50000 ^ ^29.59188 run function ff14:tri_aoe_cb
+execute positioned ^13.25000 ^ ^5.48833 run function ff14:tri_aoe_cb
+execute positioned ^-13.25000 ^ ^5.48833 run function ff14:tri_aoe_cb
 execute positioned ^14.00000 ^ ^5.79899 run function ff14:tri_aoe_cb
 execute positioned ^-14.00000 ^ ^5.79899 run function ff14:tri_aoe_cb
 execute positioned ^14.00000 ^ ^6.29899 run function ff14:tri_aoe_cb
@@ -3112,6 +3166,8 @@ execute positioned ^14.00000 ^ ^29.29899 run function ff14:tri_aoe_cb
 execute positioned ^-14.00000 ^ ^29.29899 run function ff14:tri_aoe_cb
 execute positioned ^14.00000 ^ ^29.79899 run function ff14:tri_aoe_cb
 execute positioned ^-14.00000 ^ ^29.79899 run function ff14:tri_aoe_cb
+execute positioned ^13.75000 ^ ^5.69544 run function ff14:tri_aoe_cb
+execute positioned ^-13.75000 ^ ^5.69544 run function ff14:tri_aoe_cb
 execute positioned ^14.50000 ^ ^6.00610 run function ff14:tri_aoe_cb
 execute positioned ^-14.50000 ^ ^6.00610 run function ff14:tri_aoe_cb
 execute positioned ^14.50000 ^ ^6.50610 run function ff14:tri_aoe_cb
@@ -3208,6 +3264,8 @@ execute positioned ^14.50000 ^ ^29.00610 run function ff14:tri_aoe_cb
 execute positioned ^-14.50000 ^ ^29.00610 run function ff14:tri_aoe_cb
 execute positioned ^14.50000 ^ ^29.50610 run function ff14:tri_aoe_cb
 execute positioned ^-14.50000 ^ ^29.50610 run function ff14:tri_aoe_cb
+execute positioned ^14.25000 ^ ^5.90254 run function ff14:tri_aoe_cb
+execute positioned ^-14.25000 ^ ^5.90254 run function ff14:tri_aoe_cb
 execute positioned ^15.00000 ^ ^6.21320 run function ff14:tri_aoe_cb
 execute positioned ^-15.00000 ^ ^6.21320 run function ff14:tri_aoe_cb
 execute positioned ^15.00000 ^ ^6.71320 run function ff14:tri_aoe_cb
@@ -3304,6 +3362,8 @@ execute positioned ^15.00000 ^ ^29.21320 run function ff14:tri_aoe_cb
 execute positioned ^-15.00000 ^ ^29.21320 run function ff14:tri_aoe_cb
 execute positioned ^15.00000 ^ ^29.71320 run function ff14:tri_aoe_cb
 execute positioned ^-15.00000 ^ ^29.71320 run function ff14:tri_aoe_cb
+execute positioned ^14.75000 ^ ^6.10965 run function ff14:tri_aoe_cb
+execute positioned ^-14.75000 ^ ^6.10965 run function ff14:tri_aoe_cb
 execute positioned ^15.50000 ^ ^6.42031 run function ff14:tri_aoe_cb
 execute positioned ^-15.50000 ^ ^6.42031 run function ff14:tri_aoe_cb
 execute positioned ^15.50000 ^ ^6.92031 run function ff14:tri_aoe_cb
@@ -3400,6 +3460,8 @@ execute positioned ^15.50000 ^ ^29.42031 run function ff14:tri_aoe_cb
 execute positioned ^-15.50000 ^ ^29.42031 run function ff14:tri_aoe_cb
 execute positioned ^15.50000 ^ ^29.92031 run function ff14:tri_aoe_cb
 execute positioned ^-15.50000 ^ ^29.92031 run function ff14:tri_aoe_cb
+execute positioned ^15.25000 ^ ^6.31676 run function ff14:tri_aoe_cb
+execute positioned ^-15.25000 ^ ^6.31676 run function ff14:tri_aoe_cb
 execute positioned ^16.00000 ^ ^6.62742 run function ff14:tri_aoe_cb
 execute positioned ^-16.00000 ^ ^6.62742 run function ff14:tri_aoe_cb
 execute positioned ^16.00000 ^ ^7.12742 run function ff14:tri_aoe_cb
@@ -3494,6 +3556,8 @@ execute positioned ^16.00000 ^ ^29.12742 run function ff14:tri_aoe_cb
 execute positioned ^-16.00000 ^ ^29.12742 run function ff14:tri_aoe_cb
 execute positioned ^16.00000 ^ ^29.62742 run function ff14:tri_aoe_cb
 execute positioned ^-16.00000 ^ ^29.62742 run function ff14:tri_aoe_cb
+execute positioned ^15.75000 ^ ^6.52386 run function ff14:tri_aoe_cb
+execute positioned ^-15.75000 ^ ^6.52386 run function ff14:tri_aoe_cb
 execute positioned ^16.50000 ^ ^6.83452 run function ff14:tri_aoe_cb
 execute positioned ^-16.50000 ^ ^6.83452 run function ff14:tri_aoe_cb
 execute positioned ^16.50000 ^ ^7.33452 run function ff14:tri_aoe_cb
@@ -3588,6 +3652,8 @@ execute positioned ^16.50000 ^ ^29.33452 run function ff14:tri_aoe_cb
 execute positioned ^-16.50000 ^ ^29.33452 run function ff14:tri_aoe_cb
 execute positioned ^16.50000 ^ ^29.83452 run function ff14:tri_aoe_cb
 execute positioned ^-16.50000 ^ ^29.83452 run function ff14:tri_aoe_cb
+execute positioned ^16.25000 ^ ^6.73097 run function ff14:tri_aoe_cb
+execute positioned ^-16.25000 ^ ^6.73097 run function ff14:tri_aoe_cb
 execute positioned ^17.00000 ^ ^7.04163 run function ff14:tri_aoe_cb
 execute positioned ^-17.00000 ^ ^7.04163 run function ff14:tri_aoe_cb
 execute positioned ^17.00000 ^ ^7.54163 run function ff14:tri_aoe_cb
@@ -3680,6 +3746,8 @@ execute positioned ^17.00000 ^ ^29.04163 run function ff14:tri_aoe_cb
 execute positioned ^-17.00000 ^ ^29.04163 run function ff14:tri_aoe_cb
 execute positioned ^17.00000 ^ ^29.54163 run function ff14:tri_aoe_cb
 execute positioned ^-17.00000 ^ ^29.54163 run function ff14:tri_aoe_cb
+execute positioned ^16.75000 ^ ^6.93808 run function ff14:tri_aoe_cb
+execute positioned ^-16.75000 ^ ^6.93808 run function ff14:tri_aoe_cb
 execute positioned ^17.50000 ^ ^7.24874 run function ff14:tri_aoe_cb
 execute positioned ^-17.50000 ^ ^7.24874 run function ff14:tri_aoe_cb
 execute positioned ^17.50000 ^ ^7.74874 run function ff14:tri_aoe_cb
@@ -3772,6 +3840,8 @@ execute positioned ^17.50000 ^ ^29.24874 run function ff14:tri_aoe_cb
 execute positioned ^-17.50000 ^ ^29.24874 run function ff14:tri_aoe_cb
 execute positioned ^17.50000 ^ ^29.74874 run function ff14:tri_aoe_cb
 execute positioned ^-17.50000 ^ ^29.74874 run function ff14:tri_aoe_cb
+execute positioned ^17.25000 ^ ^7.14518 run function ff14:tri_aoe_cb
+execute positioned ^-17.25000 ^ ^7.14518 run function ff14:tri_aoe_cb
 execute positioned ^18.00000 ^ ^7.45584 run function ff14:tri_aoe_cb
 execute positioned ^-18.00000 ^ ^7.45584 run function ff14:tri_aoe_cb
 execute positioned ^18.00000 ^ ^7.95584 run function ff14:tri_aoe_cb
@@ -3864,6 +3934,8 @@ execute positioned ^18.00000 ^ ^29.45584 run function ff14:tri_aoe_cb
 execute positioned ^-18.00000 ^ ^29.45584 run function ff14:tri_aoe_cb
 execute positioned ^18.00000 ^ ^29.95584 run function ff14:tri_aoe_cb
 execute positioned ^-18.00000 ^ ^29.95584 run function ff14:tri_aoe_cb
+execute positioned ^17.75000 ^ ^7.35229 run function ff14:tri_aoe_cb
+execute positioned ^-17.75000 ^ ^7.35229 run function ff14:tri_aoe_cb
 execute positioned ^18.50000 ^ ^7.66295 run function ff14:tri_aoe_cb
 execute positioned ^-18.50000 ^ ^7.66295 run function ff14:tri_aoe_cb
 execute positioned ^18.50000 ^ ^8.16295 run function ff14:tri_aoe_cb
@@ -3954,6 +4026,8 @@ execute positioned ^18.50000 ^ ^29.16295 run function ff14:tri_aoe_cb
 execute positioned ^-18.50000 ^ ^29.16295 run function ff14:tri_aoe_cb
 execute positioned ^18.50000 ^ ^29.66295 run function ff14:tri_aoe_cb
 execute positioned ^-18.50000 ^ ^29.66295 run function ff14:tri_aoe_cb
+execute positioned ^18.25000 ^ ^7.55940 run function ff14:tri_aoe_cb
+execute positioned ^-18.25000 ^ ^7.55940 run function ff14:tri_aoe_cb
 execute positioned ^19.00000 ^ ^7.87006 run function ff14:tri_aoe_cb
 execute positioned ^-19.00000 ^ ^7.87006 run function ff14:tri_aoe_cb
 execute positioned ^19.00000 ^ ^8.37006 run function ff14:tri_aoe_cb
@@ -4044,6 +4118,8 @@ execute positioned ^19.00000 ^ ^29.37006 run function ff14:tri_aoe_cb
 execute positioned ^-19.00000 ^ ^29.37006 run function ff14:tri_aoe_cb
 execute positioned ^19.00000 ^ ^29.87006 run function ff14:tri_aoe_cb
 execute positioned ^-19.00000 ^ ^29.87006 run function ff14:tri_aoe_cb
+execute positioned ^18.75000 ^ ^7.76650 run function ff14:tri_aoe_cb
+execute positioned ^-18.75000 ^ ^7.76650 run function ff14:tri_aoe_cb
 execute positioned ^19.50000 ^ ^8.07716 run function ff14:tri_aoe_cb
 execute positioned ^-19.50000 ^ ^8.07716 run function ff14:tri_aoe_cb
 execute positioned ^19.50000 ^ ^8.57716 run function ff14:tri_aoe_cb
@@ -4132,6 +4208,8 @@ execute positioned ^19.50000 ^ ^29.07716 run function ff14:tri_aoe_cb
 execute positioned ^-19.50000 ^ ^29.07716 run function ff14:tri_aoe_cb
 execute positioned ^19.50000 ^ ^29.57716 run function ff14:tri_aoe_cb
 execute positioned ^-19.50000 ^ ^29.57716 run function ff14:tri_aoe_cb
+execute positioned ^19.25000 ^ ^7.97361 run function ff14:tri_aoe_cb
+execute positioned ^-19.25000 ^ ^7.97361 run function ff14:tri_aoe_cb
 execute positioned ^20.00000 ^ ^8.28427 run function ff14:tri_aoe_cb
 execute positioned ^-20.00000 ^ ^8.28427 run function ff14:tri_aoe_cb
 execute positioned ^20.00000 ^ ^8.78427 run function ff14:tri_aoe_cb
@@ -4220,3 +4298,5 @@ execute positioned ^20.00000 ^ ^29.28427 run function ff14:tri_aoe_cb
 execute positioned ^-20.00000 ^ ^29.28427 run function ff14:tri_aoe_cb
 execute positioned ^20.00000 ^ ^29.78427 run function ff14:tri_aoe_cb
 execute positioned ^-20.00000 ^ ^29.78427 run function ff14:tri_aoe_cb
+execute positioned ^19.75000 ^ ^8.18072 run function ff14:tri_aoe_cb
+execute positioned ^-19.75000 ^ ^8.18072 run function ff14:tri_aoe_cb

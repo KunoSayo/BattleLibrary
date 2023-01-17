@@ -9,7 +9,6 @@ item replace entity @s[tag=ffcbattle] hotbar.3 with ender_eye{display:{Lore:['"�
 item replace entity @s[tag=ffcbattle] hotbar.4 with minecraft:heart_of_the_sea{display:{Lore:['"魔法 \\u00a77咏唱时间8.0s 复唱时间2.5s"', '""', '"\\u00a76令无法战斗的目标以完美的状态重新振作起来"', '"\\u00a78\\u00a7m令无法战斗的目标以虚弱的状态重新振作起来"'],"Name":"{\"text\":\"复活\"}}"}} 1
 item replace entity @s[tag=ffcbattle] hotbar.7 with air
 
-kill @e[type=item]
 
 scoreboard players operation @s bac = @s ffccd
 scoreboard players operation @s bac /= 20 consts
