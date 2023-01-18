@@ -121,10 +121,10 @@ mod scripts {
                 while cur_left <= line_width {
                     let mut cur_forward = 0.0;
                     while cur_forward <= len as f64 {
-                        writeln!(file, "execute positioned ^{:.5} ^ ^{:.5} run function battle:line_cb", cur_left, cur_forward)?;
+                        writeln!(file, "execute positioned ^{:.5} ^ ^{:.5} run function battleapi:line_cb", cur_left, cur_forward)?;
 
                         if cur_left > 0.0 {
-                            writeln!(file, "execute positioned ^-{:.5} ^ ^{:.5} run function battle:line_cb", cur_left, cur_forward)?;
+                            writeln!(file, "execute positioned ^-{:.5} ^ ^{:.5} run function battleapi:line_cb", cur_left, cur_forward)?;
                         }
                         cur_forward += 0.5;
                     }
