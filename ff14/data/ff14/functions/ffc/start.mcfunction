@@ -26,7 +26,7 @@ scoreboard players set bosschantmax bau 100
 
 kill @e[tag=boss]
 
-summon minecraft:armor_stand 0 65 0 {ShowArms:1b, CustomName:'{"text":"0级 巴尔巴莉希娅", "color":"red"}', CustomNameVisible:1b, Invisible: 0b, NoBasePlate:1b, Invulnerable:1b, DisabledSlots:4144896, ArmorItems:[{id:"minecraft:leather_boots",Count:1b,tag:{display:{color: 65280}}},{id:"minecraft:leather_leggings",Count:1b,tag:{display:{color: 65280}}},{id:"minecraft:leather_chestplate",Count:1b,tag:{display:{color: 65280}}},{id:"minecraft:leather_helmet",Count:1b, tag:{display:{color: 65280}}}], Tags:[boss, ffc, ffcboss], HandItems:[{id:"diamond_sword",Count:1}, {}]}
+summon minecraft:armor_stand 0 65 0 {ShowArms:1b, CustomName:'{"text":"0级 巴尔巴莉希娅", "color":"red"}', CustomNameVisible:1b, Invisible: 0b, NoBasePlate:1b, Invulnerable:1b, DisabledSlots:4144896, ArmorItems:[{id:"minecraft:leather_boots",Count:1b,tag:{display:{color: 65280}}},{id:"minecraft:leather_leggings",Count:1b,tag:{display:{color: 65280}}},{id:"minecraft:leather_chestplate",Count:1b,tag:{display:{color: 65280}}},{id:"minecraft:leather_helmet",Count:1b, tag:{display:{color: 65280}}}], Tags:[boss, ffc, ffcboss], HandItems:[{id:"diamond_sword",Count:1}, {}], NoGravity:1b}
 
 scoreboard players reset @a dmgstats
 scoreboard players reset @a dps

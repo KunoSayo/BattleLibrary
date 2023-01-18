@@ -5,8 +5,10 @@
 # 4 for red
 # 5 for x color
 # 6 for attack
+# 10 for white
 # 11 for yellow and y
 execute if score cc bau matches 1 run particle dust 1.0 1.0 0.0 1.0 ~ ~0.0625 ~ 0 0 0 0 1 force
+execute if score cc bau matches 10 run particle dust 1.0 0.75 0.75 1.0 ~ ~ ~ 0 0 0 0 1 force
 execute if score cc bau matches 11 run particle dust 1.0 1.0 0.0 1.0 ~ ~0.375 ~ 0 0.25 0 0 5 force
 execute if score cc bau matches 2 run particle dust 0.0 1.0 0.0 1.0 ~ ~0.0625 ~ 0 0 0 0 1 force
 execute if score cc bau matches 3 run particle dust 0.0 0.0 1.0 1.0 ~ ~0.0625 ~ 0 0 0 0 1 force

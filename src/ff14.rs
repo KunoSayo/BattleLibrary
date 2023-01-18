@@ -72,7 +72,33 @@ pub fn target_circle() -> ScriptReturn {
         for ang in -135..=135 {
             let (sin, cos) = (ang as f64).to_radians().sin_cos();
             let (x, y) = (cos * r, sin * r);
-            writeln!(file, "execute positioned ^{y} ^ ^{x} run function ff14:tcb")?;
+            writeln!(file, "execute positioned ^{y:.5} ^ ^{x:.5} run function ff14:tcb")?;
+        }
+        if r > 1.0 {
+            let mut draw_arrow = |forward, left| -> ScriptReturn {
+
+                let (sin, cos) = 22.5_f64.to_radians().sin_cos();
+                let step = 0.125;
+                let left_delta = step * sin;
+                let forward_delta = step * cos;
+                let mut cur_back = 0.0;
+                let mut cur_left: f64 = left;
+                while cur_back <= 1.0 {
+                    let forward = forward - cur_back;
+
+                    writeln!(file, "execute positioned ^{cur_left:.5} ^ ^{forward:.5} run function ff14:tcb")?;
+                    if cur_back > 0.0 {
+                        let n = -cur_left;
+                        writeln!(file, "execute positioned ^{n:.5} ^ ^{forward:.5} run function ff14:tcb")?;
+                    }
+                    cur_left += left_delta;
+                    cur_back += forward_delta;
+                }
+                Ok(())
+            };
+            draw_arrow(r - 0.375, 0.0)?;
+            draw_arrow(0.5, r - 0.75)?;
+            draw_arrow(0.5, 0.75 - r)?;
         }
     }
     Ok(())

@@ -17,12 +17,14 @@ scoreboard players remove cd time 1
 
 ## Time logic about mod n
 scoreboard players add m2 time 1
+scoreboard players add m5 time 1
 scoreboard players add m10 time 1
 scoreboard players add m20 time 1
 scoreboard players add m50 time 1
 scoreboard players add m100 time 1
 scoreboard players add m200 time 1
 execute if score m2 time matches 2.. run scoreboard players set m2 time 0
+execute if score m5 time matches 5.. run scoreboard players set m5 time 0
 execute if score m10 time matches 10.. run scoreboard players set m10 time 0
 execute if score m20 time matches 20.. run scoreboard players set m20 time 0
 execute if score m50 time matches 50.. run scoreboard players set m50 time 0
