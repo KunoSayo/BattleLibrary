@@ -38,4 +38,4 @@ scoreboard players add bosschant bau 1
 execute store result bossbar minecraft:bosschant value run scoreboard players get bosschant bau
 execute if score bosschant bau > bosschantmax bau run bossbar set minecraft:bosschant visible false
 
-execute unless entity @a[tag=ffcbattle] run function ff14:ffc/fail
+execute if score bosshp bau matches 1.. unless entity @a[tag=ffcbattle] run function ff14:ffc/fail

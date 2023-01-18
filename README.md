@@ -11,12 +11,13 @@ function battle:init
 function battle:driveoff
 
 # 以执行位置中心半径为rad，调用battleapi:circle_cb
-function battle:circle{rad}
+function battle:circle/{rad}
 
 # 以执行位置中心画斜向箭头指向玩家，调用battleapi:x2self_cb
 function battle:x2self
 
 # 以执行位置面向往前，以scoreboard中bas的forward参数值的0.25倍的格为距离
+# 如果一格范围内有block标签的实体则会停止
 # 回调battleapi:forward_cb
 function battle:forward
 
@@ -35,6 +36,7 @@ function battle:displayn
 * bau (dummy) 用户计分板，欢迎使用
 * time (dummy) 计时
 * dmg (dummy) 以瞬间伤害0为基准的次数【会根据层数自动加瞬间伤害等级至1/2】（玩家only）
+* dmgcache (dummy) 在计算伤害之前会将这个值加到dmg中并重置
 * dmgcd (dummy) 造成伤害之后的cd
 * heal(dummy) 以瞬间治疗0为基准的次数【会根据层数自动加瞬间伤害等级至1/2】（玩家only）
 * healcd (dummy) 造成伤害之后的cd

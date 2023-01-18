@@ -5,6 +5,7 @@ scoreboard objectives remove bac
 scoreboard objectives remove bau
 scoreboard objectives remove time
 scoreboard objectives remove dmg
+scoreboard objectives remove dmgcache
 scoreboard objectives remove dmgcd
 scoreboard objectives remove gcd
 scoreboard objectives remove chant

@@ -14,7 +14,8 @@ title @s[tag=atk, scores={bac=2}] actionbar [{"text":"中断 \u00a76\u00a7m闪�
 title @s[tag=atk, scores={bac=1}] actionbar [{"text":"中断 \u00a76\u00a7m闪灼\u00a77\u00a7m 发动中 #########-\u00a7r | "}, {"score":{"name":"*", "objective":"chant"}}]
 title @s[tag=atk, scores={bac=0}] actionbar [{"text":"中断 \u00a76\u00a7m闪灼\u00a77\u00a7m 发动中 #########+\u00a7r | "}, {"score":{"name":"*", "objective":"chant"}}]
 title @s[tag=atk, scores={chant=0}] actionbar [{"text":"中断 \u00a76\u00a7m闪灼\u00a77\u00a7m 发动中 ########## \u00a7r | "}, {"score":{"name":"*", "objective":"chant"}}]
-tag @s[tag=atk, scores={chant=0}] remove atk
+execute if entity @s[tag=atk] at @s unless entity @e[tag=boss,distance=..25] run title @s subtitle {"text":"目标在射程之外。","color":"red", "bold":"true"}
+execute if entity @s[tag=atk] unless entity @e[tag=boss,distance=..25] run title @s title ""
 
 title @s[tag=heal, scores={bac=10}] actionbar [{"text":"中断 \u00a7b\u00a7m蓝花\u00a77\u00a7m 发动中 ----------\u00a7r | "}, {"score":{"name":"*", "objective":"chant"}}]
 title @s[tag=heal, scores={bac=9}] actionbar [{"text":"中断 \u00a7b\u00a7m蓝花\u00a77\u00a7m 发动中 #---------\u00a7r | "}, {"score":{"name":"*", "objective":"chant"}}]
@@ -28,7 +29,6 @@ title @s[tag=heal, scores={bac=2}] actionbar [{"text":"中断 \u00a7b\u00a7m蓝�
 title @s[tag=heal, scores={bac=1}] actionbar [{"text":"中断 \u00a7b\u00a7m蓝花\u00a77\u00a7m 发动中 #########-\u00a7r | "}, {"score":{"name":"*", "objective":"chant"}}]
 title @s[tag=heal, scores={bac=0}] actionbar [{"text":"中断 \u00a7b\u00a7m蓝花\u00a77\u00a7m 发动中 #########+\u00a7r | "}, {"score":{"name":"*", "objective":"chant"}}]
 title @s[tag=heal, scores={chant=0}] actionbar [{"text":"中断 \u00a7b\u00a7m蓝花\u00a77\u00a7m 发动中 ##########\u00a7r | "}, {"score":{"name":"*", "objective":"chant"}}]
-tag @s[tag=heal, scores={chant=0}] remove heal
 
 title @s[tag=respawn, scores={bac=10}] actionbar [{"text":"中断 \u00a76\u00a7m复活\u00a77\u00a7m 发动中 ----------\u00a7r | "}, {"score":{"name":"*", "objective":"chant"}}]
 title @s[tag=respawn, scores={bac=9}] actionbar [{"text":"中断 \u00a76\u00a7m复活\u00a77\u00a7m 发动中 #---------\u00a7r | "}, {"score":{"name":"*", "objective":"chant"}}]
@@ -43,7 +43,9 @@ title @s[tag=respawn, scores={bac=1}] actionbar [{"text":"中断 \u00a76\u00a7m�
 title @s[tag=respawn, scores={bac=0}] actionbar [{"text":"中断 \u00a76\u00a7m复活\u00a77\u00a7m 发动中 #########+\u00a7r | "}, {"score":{"name":"*", "objective":"chant"}}]
 title @s[tag=respawn, scores={chant=0}] actionbar [{"text":"中断 \u00a76\u00a7m复活\u00a77\u00a7m 发动中 ##########\u00a7r | "}, {"score":{"name":"*", "objective":"chant"}}]
 execute if entity @s[tag=respawn] run say 中断了复活的咏唱
-tag @s[tag=respawn, scores={chant=0}] remove respawn
+execute if entity @s[tag=respawn] unless entity @a[tag=!ffcbattle,gamemode=adventure] run title @s subtitle {"text":"无法指定目标。","color":"red", "bold":"true"}
+execute if entity @s[tag=respawn] unless entity @a[tag=!ffcbattle,gamemode=adventure] run title @s title ""
+
 
 
 

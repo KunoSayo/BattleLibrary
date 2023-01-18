@@ -1,3 +1,4 @@
+
 execute if score @s dmg matches 1 run effect give @s minecraft:instant_damage 1 0
 execute if score @s dmg matches 1 run scoreboard players remove @s dmg 1
 execute if score @s dmg matches 2..3 run effect give @s minecraft:instant_damage 1 1
