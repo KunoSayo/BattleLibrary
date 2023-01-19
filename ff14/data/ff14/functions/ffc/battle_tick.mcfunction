@@ -1,7 +1,7 @@
 execute as @a[tag=!build] run function ff14:ffcui
 execute as @a[tag=!build] run function ff14:gcd_ui
 
-scoreboard players set cc bau 10
+scoreboard players set cc bau 4
 execute if score m10 time matches 0 as @e[tag=boss] at @s run function ff14:tc/3.5
 
 execute store result bossbar minecraft:boss value run scoreboard players get bosshp bau

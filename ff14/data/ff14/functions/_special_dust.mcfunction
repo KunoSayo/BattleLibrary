@@ -1,5 +1,5 @@
 
-execute if score cc bau matches 10 run particle dust 1.0 0.75 0.75 1.0 ~ ~ ~ 0 0 0 0 1 force
+execute if score cc bau matches 10 run particle dust 1.0 1 1 1.0 ~ ~ ~ 0 0 0 0 1 force
 execute if score cc bau matches 11 run particle dust 1.0 1.0 0.0 1.0 ~ ~0.375 ~ 0 0.25 0 0 5 force
 execute if score cc bau matches 12 run particle dust 0.0 1.0 1.0 1.0 ~ ~0.0625 ~ 0 0 0 0 1 force
 execute if score cc bau matches 13 run particle minecraft:block grass ~ ~ ~ 0 0 0 0 3 force
