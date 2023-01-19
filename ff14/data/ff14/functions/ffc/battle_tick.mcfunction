@@ -35,10 +35,16 @@ scoreboard players operation *Seconds dps = *Seconds bac
 
 execute if score bosshp bau matches ..0 run function ff14:ffc/win
 
-execute if score bosstime time matches 0.. run function ff14:ffc/p1
+execute if score bosstime time matches 0.. as @e[tag=boss,limit=1] at @s run function ff14:ffc/p1
 
 scoreboard players add bosschant bau 1
 execute store result bossbar minecraft:bosschant value run scoreboard players get bosschant bau
 execute if score bosschant bau > bosschantmax bau run bossbar set minecraft:bosschant visible false
 
 execute if score bosshp bau matches 1.. unless entity @a[tag=ffcbattle] run function ff14:ffc/fail
+
+
+# all as effects if on area.
+execute if score m5 time matches 0 as @e[tag=thorn, tag=eac] at @s positioned ~ ~2 ~ run function battle:forward
+
+execute if score m10 time matches 0 as @e[tag=thorn, tag=!eac] at @s positioned ~ ~1 ~ run particle minecraft:dust 0 1 0 1 ~ ~ ~ 0.0675 0.5 0.0675 1 25

@@ -1,5 +1,6 @@
 tag @s add block
 scoreboard players set forward bas 120
+scoreboard players set fr bas 1
 tag @s add rush_atk_target
 execute as @e[tag=boss] at @s run tp @s ~ ~ ~ facing entity @a[limit=1,tag=rush_atk_target]
 execute as @e[tag=boss] at @s run function battle:forward

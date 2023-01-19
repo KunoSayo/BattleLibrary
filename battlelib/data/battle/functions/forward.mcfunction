@@ -3,3 +3,4 @@ tag @s add self
 function battle:_forward
 execute as @e[tag=forward_result] rotated ~ ~ at @s run tp @s ~ ~ ~ ~ ~
 tag @s remove self
+scoreboard players set fr bas 0

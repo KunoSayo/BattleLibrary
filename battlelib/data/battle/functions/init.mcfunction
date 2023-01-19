@@ -43,3 +43,11 @@ forceload add 0 0
 # ui
 scoreboard objectives setdisplay list Health
 scoreboard objectives setdisplay belowName Health
+
+# rules
+gamerule maxCommandChainLength 100000
+gamerule keepInventory true
+gamerule doEntityDrops false
+gamerule doDaylightCycle false
+gamerule doWeatherCycle false
+gamerule mobGriefing false

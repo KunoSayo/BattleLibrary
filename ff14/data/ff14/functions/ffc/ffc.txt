@@ -19,7 +19,7 @@ circle aoe:
 data merge entity @e[limit=1,tag=boss, type=minecraft:armor_stand] {Pose:{RightArm:[-10.0f, 0.0f, 90.0f]}}
 
 normal:
-data merge entity @e[limit=1,tag=boss, type=minecraft:armor_stand] {Pose:{RightArm:[-10.0f, 0.0f, 10.0f]}}
+# see normal
 
 chant:
 data merge entity @e[limit=1,tag=boss, type=minecraft:armor_stand] {Pose:{RightArm:[-90.0f, 0.0f, 10.0f]}}
@@ -28,3 +28,8 @@ boss: 3.5 blocks box
 
 thunder
 time 13850
+
+bau:
+bsisLine 圆环/直线
+bsisX 分摊/分散
+bsisR 冲去/圆环

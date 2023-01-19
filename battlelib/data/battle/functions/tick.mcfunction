@@ -33,8 +33,7 @@ execute if score m200 time matches 200.. run scoreboard players set m200 time 0
 
 # dmg & heal tick
 
-execute as @a[scores={dmgcache=1..}] run scoreboard players operation @s dmg += @s dmgcache
-scoreboard players reset @a dmgcache
+function battle:calc_cache
 
 execute as @a[scores={dmg=1..}] unless score @s dmgcd matches 1.. run function battle:_checkdmg
 scoreboard players remove @a[scores={dmgcd=1..}] dmgcd 1

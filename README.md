@@ -19,7 +19,7 @@ function battle:x2self
 # 以执行位置面向往前，以scoreboard中bas的forward参数值的0.25倍的格为距离
 # 如果一格范围内有block标签的实体则会停止
 # 路径回调battleapi:forward_cb
-# 最终结束的位置会产生一个包含标签forward_result的armor_stand
+# 如果bas的fr为1，最终结束的位置会产生一个包含标签forward_result的armor_stand
 function battle:forward
 
 # 在执行位置生成盔甲架显示数字
@@ -75,3 +75,7 @@ function battle:displayn
 2s生命恢复1=0.5♥
 1s生命恢复2=0.5♥
 1s生命恢复3=1.5♥
+
+2凋零0=0.5♥
+1凋零1=0.5♥
+1凋零2=1♥
