@@ -1,1 +1,1 @@
-data merge entity @e[limit=1,tag=boss, type=minecraft:armor_stand] {Pose:{RightArm:[-15.0f, 0.0f, 10.0f], Head:[0.0f, 0.0f, 0.0f]}}
+data merge entity @e[limit=1,tag=boss, type=minecraft:armor_stand] {Pose:{RightArm:[-15.0f, 0.0f, 10.0f], Head:[0.0f, 0.0f, 0.0f], LeftLeg:[], RightLeg:[]}}
