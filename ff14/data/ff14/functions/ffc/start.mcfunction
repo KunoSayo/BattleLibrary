@@ -2,7 +2,7 @@ function battle:init
 
 kill @e[type=armor_stand]
 
-execute store result score @s Health run data get entity @s Health
+execute as @a store result score @s Health run data get entity @s Health
 
 fill -20 70 -20 20 74 20 barrier
 fill -20 72 -20 20 72 20 air

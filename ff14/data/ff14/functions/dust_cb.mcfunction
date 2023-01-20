@@ -6,7 +6,7 @@
 # 5 for x color
 # 6 for attack
 # 10 for white
-# 11 for yellow and y
+# 11 for green and y
 # 12 for aqua
 # 13 for grass block out..
 # 9961 for firework

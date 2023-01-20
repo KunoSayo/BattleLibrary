@@ -1,5 +1,6 @@
-execute as @a[tag=!build] run function ff14:ffcui
-execute as @a[tag=!build] run function ff14:gcd_ui
+execute as @a[tag=noskill] run function ff14:noskill
+execute as @a run function ff14:ffcui
+execute as @a run function ff14:gcd_ui
 
 scoreboard players set cc bau 4
 execute if score m10 time matches 0 as @e[tag=boss] at @s run function ff14:tc/3.5
@@ -48,3 +49,6 @@ execute if score bosshp bau matches 1.. unless entity @a[tag=ffcbattle] run func
 execute if score m5 time matches 0 as @e[tag=thorn, tag=eac] at @s positioned ~ ~2 ~ run function battle:forward
 
 execute if score m10 time matches 0 as @e[tag=thorn, tag=!eac] at @s positioned ~ ~1 ~ run particle minecraft:dust 0 1 0 1 ~ ~ ~ 0.0675 0.5 0.0675 1 25
+execute if score m10 time matches 0 as @e[tag=thorn, tag=!eac] at @s positioned ~ ~1 ~ run particle minecraft:dust 0 1 0 1 ~ ~ ~ 0.0675 0.5 0.0675 1 25
+execute as @e[tag=lac] at @s run function ff14:ffc/hair_check
+execute as @e[tag=aoeas] at @s run function ff14:check_asaoe

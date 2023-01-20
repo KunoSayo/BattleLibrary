@@ -40,8 +40,8 @@ execute if score bosstime time matches 860 run function ff14:ffc/magic_rush
 execute if score bosstime time matches 900 run function ff14:ffc/magic_rush_2s
 # 960 tick 点名判定
 # 4s后瞬发
+execute if score bosstime time matches 1030 run tp @s 0 65 0
 execute if score bosstime time matches 1040 run function ff14:ffc/angry_wind
-execute if score bosstime time matches 1040 run tp @s 0 65 0
 
 execute if score bosstime time matches 1059 run tellraw @a {"text":"\u00a7a巴尔巴莉希娅：做好准备吧！"}
 # 1s后第二波 开始复读
@@ -64,7 +64,7 @@ execute if score bosstime time matches 1280 run tellraw @a {"text":"\u00a7e巴�
 execute if score bosstime time matches 1310 facing entity @e[tag=thorn,limit=1] eyes rotated ~ 0 run tp @s ~ ~ ~ ~ ~
 execute if score bosstime time matches 1320 run function ff14:ffc/prepare_magic_rush
 
-# todo: random x or t
+
 # 咒发突袭开始吟唱2s后的时候点名
 execute if score bosstime time matches 1360 if score bsisX bau matches 1 run tag @a[tag=ffcbattle] add ffxing
 execute if score bosstime time matches 1360 if score bsisX bau matches 1 run function ff14:cachex
@@ -73,4 +73,28 @@ execute if score bosstime time matches 1360 unless score bsisX bau matches 1 run
 
 execute if score bosstime time matches 1420 run function ff14:ffc/magic_rush
 execute if score bosstime time matches 1460 run function ff14:ffc/magic_rush_2s
-# todo: random aoe calc (2)
+
+execute if score bosstime time matches 1560 run tellraw @a {"text":"\u00a7e巴尔巴莉希娅正在咏唱“虚空飙风”。"}
+execute if score bosstime time matches 1560 run bossbar set minecraft:bosschant name {"text":"\u00a7e虚空飙风"}
+execute if score bosstime time matches 1560 run function ff14:ffc/chant_phase
+
+execute if score bosstime time matches 1660 run function ff14:ffc/void_wind
+
+
+execute if score bosstime time matches 1700 run bossbar set minecraft:bosschant name {"text":"\u00a7e等待"}
+execute if score bosstime time matches 1700 run function ff14:ffc/chant_phase
+execute if score bosstime time matches 1800 run function ff14:ffc/normal_phase
+execute if score bosstime time matches 1990 run tp @s 0 65 0
+
+execute if score bosstime time matches 2000 run function ff14:ffc/angry_wind
+execute if score bosstime time matches 2019 run tellraw @a {"text":"\u00a7a巴尔巴莉希娅：我的头发自由如风！"}
+
+execute if score bosstime time matches 2020 run function ff14:ffc/chant_limit
+# 3.0s 读完条
+# 4.0s aoe判定 玩家不能操作 3s
+# 6.0s tp
+execute if score bosstime time matches 2080 run function ff14:ffc/normal_phase
+execute if score bosstime time matches 2080 run tellraw @a {"text":"\u00a7e巴尔巴莉希娅发动了“咒发拘束”。"}
+execute if score bosstime time matches 2100 run function ff14:ffc/start_limit
+execute if score bosstime time matches 2140 run function ff14:ffc/start_limit_2
+execute if score bosstime time matches 2160 run function ff14:ffc/start_limit_3

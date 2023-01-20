@@ -1,1 +1,1 @@
-execute as @a at @s run function ff14:x
+execute as @a[tag=ffxing] at @s run function ff14:x

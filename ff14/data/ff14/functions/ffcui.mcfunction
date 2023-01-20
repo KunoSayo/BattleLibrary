@@ -2,12 +2,12 @@
 
 execute unless score @s ffccd matches 1.. unless entity @s[tag=ffcbattle] run item replace entity @s hotbar.2 with minecraft:air
 
-item replace entity @s[tag=ffcbattle] hotbar.0 with nether_star{display:{Lore:['"魔法 \\u00a77咏唱时间1.5s 复唱时间2.5s"', '""', '"\\u00a76闪耀的魔法技能 \\u00a7a威力：\\u00a7f100"', '"\\u00a79对目标发动\\u00a75无属性\\u00a79魔法攻击"'],"Name":"{\"text\":\"闪灼\"}}"}} 1
-item replace entity @s[tag=ffcbattle] hotbar.1 with minecraft:cornflower{display:{Lore:['"魔法 \\u00a77咏唱时间1.5s 复唱时间2.5s"', '""', '"\\u00a76治疗百合"', '"\\u00a79恢复自身及周围玩家的体力"'],"Name":"{\"text\":\"\\u00a73蓝花\"}}"}} 1
-execute unless score @s ffccd matches 1.. run item replace entity @s[tag=ffcbattle] hotbar.2 with grass{display:{Lore:['"能力 \\u00a77咏唱时间即时 复唱时间60.0s"', '""', '"\\u00a7a可以防风"', '"\\u00a78\\u00a7m但防不了火"', '"\\u00a78\\u00a7m但防绵羊"'], "Name":"{\"text\":\"\\u00a7a防风草\"}}"},Enchantments:[{id:"unbreaking",lvl:1}]} 1
-item replace entity @s[tag=ffcbattle] hotbar.3 with ender_eye{display:{Lore:['"魔法 \\u00a77咏唱时间即时 复唱时间2.5s"', '""','"\\u00a7f普通的魔法技能 \\u00a7a威力：\\u00a7f75"', '"\\u00a79对目标发动\\u00a75无属性\\u00a79魔法攻击"'],"Name":"{\"text\":\"毁坏\"}}"}} 1
-item replace entity @s[tag=ffcbattle] hotbar.4 with minecraft:heart_of_the_sea{display:{Lore:['"魔法 \\u00a77咏唱时间8.0s 复唱时间2.5s"', '""', '"\\u00a76令无法战斗的目标以完美的状态重新振作起来"', '"\\u00a78\\u00a7m令无法战斗的目标以虚弱的状态重新振作起来"'],"Name":"{\"text\":\"复活\"}}"}} 1
-item replace entity @s[tag=ffcbattle] hotbar.7 with air
+item replace entity @s[tag=ffcbattle, tag=!noskill] hotbar.0 with nether_star{display:{Lore:['"魔法 \\u00a77咏唱时间1.5s 复唱时间2.5s"', '""', '"\\u00a76闪耀的魔法技能 \\u00a7a威力：\\u00a7f100"', '"\\u00a79对目标发动\\u00a75无属性\\u00a79魔法攻击"'],"Name":"{\"text\":\"闪灼\"}}"}} 1
+item replace entity @s[tag=ffcbattle, tag=!noskill] hotbar.1 with minecraft:cornflower{display:{Lore:['"魔法 \\u00a77咏唱时间1.5s 复唱时间2.5s"', '""', '"\\u00a76治疗百合"', '"\\u00a79恢复自身及周围玩家的体力"'],"Name":"{\"text\":\"\\u00a73蓝花\"}}"}} 1
+execute unless score @s ffccd matches 1.. run item replace entity @s[tag=ffcbattle, tag=!noskill] hotbar.2 with grass{display:{Lore:['"能力 \\u00a77咏唱时间即时 复唱时间60.0s"', '""', '"\\u00a7a可以防风"', '"\\u00a78\\u00a7m但防不了火"', '"\\u00a78\\u00a7m但防绵羊"'], "Name":"{\"text\":\"\\u00a7a防风草\"}}"},Enchantments:[{id:"unbreaking",lvl:1}]} 1
+item replace entity @s[tag=ffcbattle, tag=!noskill] hotbar.3 with ender_eye{display:{Lore:['"魔法 \\u00a77咏唱时间即时 复唱时间2.5s"', '""','"\\u00a7f普通的魔法技能 \\u00a7a威力：\\u00a7f75"', '"\\u00a79对目标发动\\u00a75无属性\\u00a79魔法攻击"'],"Name":"{\"text\":\"毁坏\"}}"}} 1
+item replace entity @s[tag=ffcbattle, tag=!noskill] hotbar.4 with minecraft:heart_of_the_sea{display:{Lore:['"魔法 \\u00a77咏唱时间8.0s 复唱时间2.5s"', '""', '"\\u00a76令无法战斗的目标以完美的状态重新振作起来"', '"\\u00a78\\u00a7m令无法战斗的目标以虚弱的状态重新振作起来"'],"Name":"{\"text\":\"复活\"}}"}} 1
+
 
 
 scoreboard players operation @s bac = @s ffccd
