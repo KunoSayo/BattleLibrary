@@ -1,4 +1,5 @@
 execute if score cc bau matches 1 run particle dust 1.0 1.0 0.0 1.0 ~ ~0.0625 ~ 0 0 0 0 1 force
+execute if score cc bau matches -1 if entity @e[distance=..10, tag=boss] run particle dust 1.0 1.0 0.0 1.0 ~ ~0.0625 ~ 0 0 0 0 1 force
 execute if score cc bau matches 2 run particle dust 0.0 1.0 0.0 1.0 ~ ~0.0625 ~ 0 0 0 0 1 force
 execute if score cc bau matches 3 run particle dust 0.0 0.0 1.0 1.0 ~ ~0.0625 ~ 0 0 0 0 1 force
 execute if score cc bau matches 4 run particle dust 1.0 0.0 0.0 1.0 ~ ~0.0625 ~ 0 0 0 0 1 force

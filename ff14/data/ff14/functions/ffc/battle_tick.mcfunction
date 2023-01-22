@@ -21,11 +21,11 @@ execute if score p bac matches 0 run bossbar set minecraft:boss name [{"text":"0
 scoreboard players add bosstime time 1
 
 
-execute as @a[gamemode=adventure] run scoreboard players operation @s bac = @s dmgstats
-execute as @a[gamemode=adventure] run scoreboard players operation @s bac *= 200 consts
-execute as @a[gamemode=adventure] run scoreboard players operation @s bac *= 10 consts
-execute as @a[gamemode=adventure] run scoreboard players operation @s bac /= bosstime time
-execute as @a[gamemode=adventure] run scoreboard players operation @s dps = @s bac
+execute as @a[tag=gaming] run scoreboard players operation @s bac = @s dmgstats
+execute as @a[tag=gaming] run scoreboard players operation @s bac *= 200 consts
+execute as @a[tag=gaming] run scoreboard players operation @s bac *= 10 consts
+execute as @a[tag=gaming] run scoreboard players operation @s bac /= bosstime time
+execute as @a[tag=gaming] run scoreboard players operation @s dps = @s bac
 
 scoreboard players set *Total bac 0
 scoreboard players operation *Total bac += @a[scores={dps=1..}] dps
@@ -52,3 +52,5 @@ execute if score m10 time matches 0 as @e[tag=thorn, tag=!eac] at @s positioned 
 execute if score m10 time matches 0 as @e[tag=thorn, tag=!eac] at @s positioned ~ ~1 ~ run particle minecraft:dust 0 1 0 1 ~ ~ ~ 0.0675 0.5 0.0675 1 25
 execute as @e[tag=lac] at @s run function ff14:ffc/hair_check
 execute as @e[tag=aoeas] at @s run function ff14:check_asaoe
+
+execute if score m20 time matches 0 if score border bau matches 0 positioned 0 65 0 run function ff14:ffc/border

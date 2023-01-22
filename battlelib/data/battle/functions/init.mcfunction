@@ -45,7 +45,7 @@ scoreboard objectives setdisplay list Health
 scoreboard objectives setdisplay belowName Health
 
 # rules
-gamerule maxCommandChainLength 100000
+gamerule maxCommandChainLength 400000
 gamerule keepInventory true
 gamerule doEntityDrops false
 gamerule doDaylightCycle false

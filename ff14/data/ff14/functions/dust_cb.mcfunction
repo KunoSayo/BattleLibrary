@@ -10,5 +10,5 @@
 # 12 for aqua
 # 13 for grass block out..
 # 9961 for firework
-execute if score cc bau matches 1..6 run function ff14:_color_dust
+execute if score cc bau matches ..6 run function ff14:_color_dust
 execute if score cc bau matches 7.. run function ff14:_special_dust

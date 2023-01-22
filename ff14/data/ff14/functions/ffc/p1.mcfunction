@@ -1,10 +1,9 @@
 execute if score bosstime time matches 1 run tellraw @a {"text":"\u00a7a巴尔巴莉希娅：何等美味的以太……"}
 execute if score bosstime time matches 100 run tellraw @a {"text":"\u00a7a巴尔巴莉希娅：会令我的头发更加艳丽！"}
-execute if score bosstime time matches 200 run tellraw @a {"text":"\u00a7e巴尔巴莉希娅正在咏唱“虚空飙风”。"}
-execute if score bosstime time matches 200 run bossbar set minecraft:bosschant name {"text":"\u00a7e虚空飙风"}
-execute if score bosstime time matches 200 run function ff14:ffc/chant_phase
+execute if score bosstime time matches 200 run function ff14:ffc/void_wind/chant
+
 # 15s
-execute if score bosstime time matches 300 run function ff14:ffc/void_wind
+execute if score bosstime time matches 300 run function ff14:ffc/void_wind/cast
 # 23s
 execute if score bosstime time matches 460 run function ff14:ffc/angry_wind
 
@@ -74,11 +73,8 @@ execute if score bosstime time matches 1360 unless score bsisX bau matches 1 run
 execute if score bosstime time matches 1420 run function ff14:ffc/magic_rush
 execute if score bosstime time matches 1460 run function ff14:ffc/magic_rush_2s
 
-execute if score bosstime time matches 1560 run tellraw @a {"text":"\u00a7e巴尔巴莉希娅正在咏唱“虚空飙风”。"}
-execute if score bosstime time matches 1560 run bossbar set minecraft:bosschant name {"text":"\u00a7e虚空飙风"}
-execute if score bosstime time matches 1560 run function ff14:ffc/chant_phase
-
-execute if score bosstime time matches 1660 run function ff14:ffc/void_wind
+execute if score bosstime time matches 1560 run function ff14:ffc/void_wind/chant
+execute if score bosstime time matches 1660 run function ff14:ffc/void_wind/cast
 
 
 execute if score bosstime time matches 1700 run bossbar set minecraft:bosschant name {"text":"\u00a7e等待"}
@@ -98,3 +94,14 @@ execute if score bosstime time matches 2080 run tellraw @a {"text":"\u00a7e巴�
 execute if score bosstime time matches 2100 run function ff14:ffc/start_limit
 execute if score bosstime time matches 2140 run function ff14:ffc/start_limit_2
 execute if score bosstime time matches 2160 run function ff14:ffc/start_limit_3
+
+execute if score bosstime time matches 2259 run tellraw @a {"text":"\u00a7a巴尔巴莉希娅：既柔软，又强大！"}
+execute if score bosstime time matches 2260 run function ff14:ffc/invis_wind/chant
+execute if score bosstime time matches 2280 run function ff14:ffc/invis_wind/warn
+execute if score bosstime time matches 2300 run function ff14:ffc/invis_wind/warn
+execute if score bosstime time matches 2320 run function ff14:ffc/invis_wind/cast
+execute if score bosstime time matches 2360 run function ff14:ffc/invis_wind/cast_2
+
+
+execute if score bosstime time matches 2480 run function ff14:ffc/void_wind/chant
+execute if score bosstime time matches 2580 run function ff14:ffc/void_wind/cast
