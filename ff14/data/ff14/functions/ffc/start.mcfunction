@@ -63,3 +63,5 @@ execute if predicate battle:r1d2 run scoreboard players set bsisR bau 1
 
 title @a subtitle ""
 title @a title {"text":"开始！", "color":"gold"}
+
+fill -20 65 -20 20 65 20 air replace minecraft:structure_void

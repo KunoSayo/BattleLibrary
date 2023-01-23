@@ -6,8 +6,8 @@ execute unless score ffc bau matches 1.. run scoreboard players reset ffc
 scoreboard players remove @a[scores={ffccd=1..}] ffccd 1
 scoreboard players reset @a[scores={ffccd=0}] ffccd
 
-execute as @a[tag=ffcbattle] at @s run spawnpoint @s ~ 65 ~
+execute as @a[tag=ffcbattle] at @s run spawnpoint @s ~ 66 ~
 
-execute as @e[type=armor_stand, tag=boss] at @s run function ff14:ffc/battle_tick
+execute as @e[type=armor_stand, tag=boss] at @s run function ff14:ffc/stage/tick
 
 kill @e[type=item]

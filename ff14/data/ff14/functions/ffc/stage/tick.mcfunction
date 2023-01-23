@@ -36,7 +36,8 @@ scoreboard players operation *Seconds dps = *Seconds bac
 
 execute if score bosshp bau matches ..0 run function ff14:ffc/win
 
-execute if score bosstime time matches 0.. as @e[tag=boss,limit=1] at @s run function ff14:ffc/p1
+execute if score bosstime time matches ..3360 as @e[tag=boss,limit=1] at @s run function ff14:ffc/stage/1
+execute if score bosstime time matches 3361.. as @e[tag=boss,limit=1] at @s run function ff14:ffc/stage/2
 
 scoreboard players add bosschant bau 1
 execute store result bossbar minecraft:bosschant value run scoreboard players get bosschant bau

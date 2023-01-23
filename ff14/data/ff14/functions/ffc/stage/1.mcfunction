@@ -97,11 +97,19 @@ execute if score bosstime time matches 2160 run function ff14:ffc/start_limit_3
 
 execute if score bosstime time matches 2259 run tellraw @a {"text":"\u00a7a巴尔巴莉希娅：既柔软，又强大！"}
 execute if score bosstime time matches 2260 run function ff14:ffc/invis_wind/chant
-execute if score bosstime time matches 2280 run function ff14:ffc/invis_wind/warn
-execute if score bosstime time matches 2300 run function ff14:ffc/invis_wind/warn
-execute if score bosstime time matches 2320 run function ff14:ffc/invis_wind/cast
-execute if score bosstime time matches 2360 run function ff14:ffc/invis_wind/cast_2
 
 
 execute if score bosstime time matches 2480 run function ff14:ffc/void_wind/chant
 execute if score bosstime time matches 2580 run function ff14:ffc/void_wind/cast
+
+execute if score bosstime time matches 2740 run function ff14:ffc/angry_wind
+execute if score bosstime time matches 2759 run tellraw @a {"text":"\u00a7a巴尔巴莉希娅：你们竟然能坚持到现在……"}
+
+execute if score bosstime time matches 2760 run function ff14:ffc/hair_armor/chant
+execute if score bosstime time matches 2859 run tellraw @a {"text":"\u00a7a巴尔巴莉希娅：那我也要拿出真正的实力了！"}
+
+
+execute if score bosstime time matches 3200 run tellraw @a {"text":"\u00a7e巴尔巴莉希娅发动了“落狱煞”。"}
+execute if score bosstime time matches 3200 run tp @s 0 100 0
+execute if score bosstime time matches 3260 run tellraw @a {"text":"\u00a7a巴尔巴莉希娅：啊哈哈哈哈哈！"}
+execute if score bosstime time matches 3360 run tellraw @a {"text":"\u00a7a巴尔巴莉希娅：把你们全部干掉！"}

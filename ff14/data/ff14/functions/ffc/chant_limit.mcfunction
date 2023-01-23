@@ -4,16 +4,16 @@ tellraw @a {"text":"\u00a7e巴尔巴莉希娅正在发动“咒发拘束”。"}
 bossbar set minecraft:bosschant name {"text":"\u00a7e咒发拘束"}
 function ff14:ffc/chant_phase
 
-summon minecraft:armor_stand 0 65 -8 {NoGravity:1b, Marker:1b, Tags:[bossas, ffcas, aoeas, aoe5], Invisible:1b}
-summon minecraft:armor_stand 0 65 8 {NoGravity:1b, Marker:1b, Tags:[bossas, ffcas, aoeas, aoe5], Invisible:1b}
-summon minecraft:armor_stand -8 65 0 {NoGravity:1b, Marker:1b, Tags:[bossas, ffcas, aoeas, aoe5], Invisible:1b}
-summon minecraft:armor_stand 8 65 0 {NoGravity:1b, Marker:1b, Tags:[bossas, ffcas, aoeas, aoe5], Invisible:1b}
+summon minecraft:armor_stand 0 65 -8 {NoGravity:1b, Marker:1b, Tags:[bossas, ffcas, aoeas, aoe3.5], Invisible:1b}
+summon minecraft:armor_stand 0 65 8 {NoGravity:1b, Marker:1b, Tags:[bossas, ffcas, aoeas, aoe3.5], Invisible:1b}
+summon minecraft:armor_stand -8 65 0 {NoGravity:1b, Marker:1b, Tags:[bossas, ffcas, aoeas, aoe3.5], Invisible:1b}
+summon minecraft:armor_stand 8 65 0 {NoGravity:1b, Marker:1b, Tags:[bossas, ffcas, aoeas, aoe3.5], Invisible:1b}
 
 summon minecraft:armor_stand 0 65 -8 {NoGravity:1b, Marker:1b, Tags:[bossas, ffcas, limit, block], Invisible:1b}
 summon minecraft:armor_stand 0 65 8 {NoGravity:1b, Marker:1b, Tags:[bossas, ffcas, limit, block], Invisible:1b}
 summon minecraft:armor_stand -8 65 0 {NoGravity:1b, Marker:1b, Tags:[bossas, ffcas, limit, block], Invisible:1b}
 summon minecraft:armor_stand 8 65 0 {NoGravity:1b, Marker:1b, Tags:[bossas, ffcas, limit, block], Invisible:1b}
-scoreboard players set @e[tag=aoe5] timeToLive 81
+scoreboard players set @e[tag=aoeas] timeToLive 81
 
 scoreboard objectives add hair dummy
 

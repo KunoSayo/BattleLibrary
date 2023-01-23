@@ -21,34 +21,36 @@ fn gen_ff14(name: &str, overwrite: bool) -> Result<File, Error> {
 pub fn tri_aoe() -> ScriptReturn {
     let angles = [15.0, 22.5, 30.0, 37.5, 45.0, 60.0, 67.5, 75.0];
     for angle in angles {
-        let mut file = gen_ff14(&format!("tri/{:.1}", angle), OVERWRITE)?;
-        let rev = 90.0f64 - angle;
-        let rev_rad = rev.to_radians();
-        let (sin, cos) = rev_rad.sin_cos();
-        let k = 0.5 / cos;
-        let left_delta = cos * k;
-        let left_delta_half = left_delta * 0.5;
-        let forward_delta = sin * k;
-        let forward_delta_half = forward_delta * 0.5;
-        let mut cur_left = 0.0;
-        let mut cur_forward = 0.0;
-        while cur_left <= 20.0 && cur_forward <= 30.0 {
-            let mut forward_step = 0.0;
-            while forward_step + cur_forward <= 30.0 {
-                let forward = cur_forward + forward_step;
-                writeln!(file, "execute positioned ^{:.5} ^ ^{:.5} run function ff14:tri_aoe_cb", cur_left, forward)?;
-                if cur_left > 0.0 {
-                    writeln!(file, "execute positioned ^-{:.5} ^ ^{:.5} run function ff14:tri_aoe_cb", cur_left, forward)?;
+        for dis in [10.0, 15.0, 20.0, 25.0, 30.0, 35.0, 40.0] {
+            let mut file = gen_ff14(&format!("tri/{:.1}/{}", angle, dis), OVERWRITE)?;
+            let rev = 90.0f64 - angle;
+            let rev_rad = rev.to_radians();
+            let (sin, cos) = rev_rad.sin_cos();
+            let k = 0.5 / cos;
+            let left_delta = cos * k;
+            let left_delta_half = left_delta * 0.5;
+            let forward_delta = sin * k;
+            let forward_delta_half = forward_delta * 0.5;
+            let mut cur_left = 0.0;
+            let mut cur_forward = 0.0;
+            while cur_left <= 20.0 && cur_forward <= dis {
+                let mut forward_step = 0.0;
+                while forward_step + cur_forward <= dis {
+                    let forward = cur_forward + forward_step;
+                    writeln!(file, "execute positioned ^{:.5} ^ ^{:.5} run function ff14:tri_aoe_cb", cur_left, forward)?;
+                    if cur_left > 0.0 {
+                        writeln!(file, "execute positioned ^-{:.5} ^ ^{:.5} run function ff14:tri_aoe_cb", cur_left, forward)?;
+                    }
+                    forward_step += 0.5;
                 }
-                forward_step += 0.5;
-            }
-            if cur_left > 0.0 {
-                writeln!(file, "execute positioned ^{:.5} ^ ^{:.5} run function ff14:tri_aoe_cb", cur_left - left_delta_half, cur_forward - forward_delta_half)?;
-                writeln!(file, "execute positioned ^-{:.5} ^ ^{:.5} run function ff14:tri_aoe_cb", cur_left - left_delta_half, cur_forward - forward_delta_half)?;
-            }
+                if cur_left > 0.0 {
+                    writeln!(file, "execute positioned ^{:.5} ^ ^{:.5} run function ff14:tri_aoe_cb", cur_left - left_delta_half, cur_forward - forward_delta_half)?;
+                    writeln!(file, "execute positioned ^-{:.5} ^ ^{:.5} run function ff14:tri_aoe_cb", cur_left - left_delta_half, cur_forward - forward_delta_half)?;
+                }
 
-            cur_left += left_delta;
-            cur_forward += forward_delta;
+                cur_left += left_delta;
+                cur_forward += forward_delta;
+            }
         }
     }
 
