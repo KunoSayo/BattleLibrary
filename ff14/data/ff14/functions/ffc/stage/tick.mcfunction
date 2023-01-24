@@ -54,4 +54,3 @@ execute if score m10 time matches 0 as @e[tag=thorn, tag=!eac] at @s positioned 
 execute as @e[tag=lac] at @s run function ff14:ffc/hair_check
 execute as @e[tag=aoeas] at @s run function ff14:check_asaoe
 
-execute if score m20 time matches 0 if score border bau matches 0 positioned 0 65 0 run function ff14:ffc/border

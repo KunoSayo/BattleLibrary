@@ -16,6 +16,9 @@ scoreboard objectives add maxchant dummy
 scoreboard objectives add dmgstats dummy
 scoreboard objectives add dps dummy
 scoreboard objectives add dcstats dummy
+scoreboard objectives add X dummy
+scoreboard objectives add Y dummy
+scoreboard objectives add Z dummy
 
 
 function battle:initconst

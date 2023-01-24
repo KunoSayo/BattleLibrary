@@ -13,6 +13,9 @@ scoreboard objectives remove maxchant
 scoreboard objectives remove dmgstats
 scoreboard objectives remove dps
 scoreboard objectives remove dcstats
+scoreboard objectives remove X
+scoreboard objectives remove Y
+scoreboard objectives remove Z
 
 
 scoreboard objectives remove Health

@@ -51,6 +51,7 @@ function battle:displayn
 * run 跑记录
 * crouch 蹲着走记录
 * sneak 蹲着记录
+* X/Y/Z 玩家x/y/z坐标*10000后的数值
 
 ## Tags
 
@@ -79,3 +80,7 @@ function battle:displayn
 2凋零0=0.5♥
 1凋零1=0.5♥
 1凋零2=1♥
+
+1.5中毒0=0.5♥
+
+1中毒max=1♥
