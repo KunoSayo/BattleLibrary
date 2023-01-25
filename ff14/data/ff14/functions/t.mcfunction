@@ -10,7 +10,7 @@ function battle:circle/4.0
 
 tag @s add ffted
 
-tag @a[distance=..4] add ting
+tag @a[distance=..4, tag=ffcbattle] add ting
 
 scoreboard players add @a[tag=ting] dmgcache 4
 execute as @a[tag=ting, tag=!ffted] run scoreboard players operation @a[tag=ting] dmgcache /= 2 consts

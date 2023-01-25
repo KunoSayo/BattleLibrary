@@ -7,7 +7,7 @@ execute positioned 0 65 0 run effect give @a[tag=ffcbattle,distance=10..] minecr
 execute if score bosstime time matches 3420 run tp @s 0 65 0
 execute if score bosstime time matches 3420 run scoreboard players set border bau 0
 execute if score bosstime time matches 3420 run particle minecraft:block grass 0 66 0 7 0.25 7 1 10000 force
-execute if score bosstime time matches 3420 run playsound minecraft:block.anvil.land hostile @a ~ ~ ~ 1000 2
+execute if score bosstime time matches 3420 run summon minecraft:lightning_bolt 0 99 0
 execute if score bosstime time matches 3420 run scoreboard players add @a[tag=ffcbattle] dmg 4
 
 execute if score bosstime time matches 3500 run tellraw @a {"text":"\u00a7a巴尔巴莉希娅：你能躲得开吗！"}
@@ -79,3 +79,57 @@ execute if score bosstime time matches 4780 run scoreboard players set @e[tag=yp
 
 execute if score bosstime time matches 4820 as @a[tag=ffcbattle] at @s run summon minecraft:armor_stand ~ 65 ~ {NoGravity:1b, Marker:1b, Tags:[bossas, ffcas, aoeas, aoe3.5, ypui3], Invisible:1b}
 execute if score bosstime time matches 4820 run scoreboard players set @e[tag=ypui3] timeToLive 60
+
+execute if score bosstime time matches 4880 run tag @r[tag=ffcbattle] add ffhing
+execute if score bosstime time matches 4880 run function ff14:cacheh
+execute if score bosstime time matches 4880 run function ff14:ffc/impact/start
+
+execute if score bosstime time matches 4900 run tag @r[tag=ffcbattle,tag=!ffhing] add ffting
+execute if score bosstime time matches 4900 run function ff14:cachet
+
+execute if score bosstime time matches 5059 run tp @s @a[tag=ffting,limit=1]
+execute if score bosstime time matches 5120 run tp 0 65 0
+execute if score bosstime time matches 5160 run function ff14:ffc/cruel_charge/start
+
+# chant to boyuli is 9s = 180tick
+# 240+180=420
+execute if score bosstime time matches 5240 run function ff14:ffc/chant_limit
+execute if score bosstime time matches 5300 run function ff14:ffc/normal_phase
+execute if score bosstime time matches 5300 run tellraw @a {"text":"\u00a7e巴尔巴莉希娅发动了“咒发拘束”。"}
+execute if score bosstime time matches 5320 run function ff14:ffc/start_limit
+execute if score bosstime time matches 5320 run tp 0 65 0
+execute if score bosstime time matches 5360 run function ff14:ffc/start_limit_2
+execute if score bosstime time matches 5380 run function ff14:ffc/start_limit_3_p2
+
+# 5:23
+# 5:34 t
+execute if score bosstime time matches 5420 run function ff14:ffc/wave/start
+
+execute if score bosstime time matches 5620 run function ff14:ffc/tornado/start
+execute if score bosstime time matches 5640 run tag @a[sort=random,limit=2,tag=ffcbattle] add ffting
+execute if score bosstime time matches 5640 run function ff14:cachet
+
+execute if score bosstime time matches 5820 run tellraw @a {"text":"\u00a7a巴尔巴莉希娅：不要小看我！"}
+
+execute if score bosstime time matches 5839 run tellraw @a {"text":"\u00a7e巴尔巴莉希娅发动了“怒拳连震”。"}
+execute if score bosstime time matches 5840 run scoreboard players add @a[tag=ffcbattle] dmg 1
+execute if score bosstime time matches 5840 run particle minecraft:block grass 0 66 0 7 0.25 7 1 10000 force
+
+execute if score bosstime time matches 5880 run scoreboard players add @a[tag=ffcbattle] dmg 1
+execute if score bosstime time matches 5880 run particle minecraft:block grass 0 66 0 7 0.25 7 1 10000 force
+
+execute if score bosstime time matches 5920 run scoreboard players add @a[tag=ffcbattle] dmg 1
+execute if score bosstime time matches 5920 run particle minecraft:block grass 0 66 0 7 0.25 7 1 10000 force
+execute if score bosstime time matches 5940 run scoreboard players add @a[tag=ffcbattle] dmg 1
+execute if score bosstime time matches 5940 run particle minecraft:block grass 0 66 0 7 0.25 7 1 10000 force
+execute if score bosstime time matches 5960 run scoreboard players add @a[tag=ffcbattle] dmg 1
+execute if score bosstime time matches 5960 run particle minecraft:block grass 0 66 0 7 0.25 7 1 10000 force
+execute if score bosstime time matches 5980 run scoreboard players add @a[tag=ffcbattle] dmg 2
+execute if score bosstime time matches 5980 run particle minecraft:block grass 0 66 0 7 0.25 7 1 10000 force
+
+execute if score bosstime time matches 6059 run tellraw @a {"text":"\u00a7e巴尔巴莉希娅发动了“重拳激震”。"}
+execute if score bosstime time matches 6060 run scoreboard players add @a[tag=ffcbattle] dmg 2
+execute if score bosstime time matches 6060 run particle minecraft:block grass 0 66 0 7 0.25 7 1 5000 force
+execute if score bosstime time matches 6060 run particle minecraft:block grass_block 0 66 0 7 0.25 7 1 5000 force
+
+execute if score bosstime time matches 6140 run function ff14:ffc/hair_armor/cast_inv

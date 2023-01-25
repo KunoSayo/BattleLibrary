@@ -65,3 +65,4 @@ title @a subtitle ""
 title @a title {"text":"开始！", "color":"gold"}
 
 fill -20 65 -20 20 65 20 air replace minecraft:structure_void
+scoreboard players set @a[scores={song_ffbatl=..99999999}] song_ffbatl 0

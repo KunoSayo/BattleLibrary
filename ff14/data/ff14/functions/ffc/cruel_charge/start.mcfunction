@@ -1,4 +1,4 @@
-
+tag @a remove rushed
 function ff14:ffc/cruel_charge/choose
 
 schedule function ff14:ffc/cruel_charge/choose 2s append

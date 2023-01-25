@@ -9,5 +9,5 @@ function battle:circle/2.0
 function battle:circle/3.0
 function battle:circle/4.0
 function battle:circle/5.0
-scoreboard players add @a[distance=..5] dmg 2
-playsound minecraft:block.note_block.flute master @a ~ ~ ~ 100 2
+scoreboard players add @a[distance=..5, tag=ffcbattle] dmg 2
+playsound minecraft:block.sweet_berry_bush.place master @a ~ ~ ~ 1000 1

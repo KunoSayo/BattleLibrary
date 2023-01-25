@@ -5,8 +5,13 @@ scoreboard players reset aoedmg
 
 execute if score mod bac matches 19 if entity @s[tag=aoe5] run function ff14:aoe/5
 execute if score mod bac matches 19 if entity @s[tag=aoe3.5] run function ff14:aoe/3.5
+execute if score mod bac matches 9 if entity @s[tag=aoe7.5] run function ff14:aoe/7.5
 execute if score mod bac matches 19 if entity @s[tag=aoe7.5] run function ff14:aoe/7.5
 execute if score mod bac matches 19 if entity @s[tag=line_1_30] run function battle:line/1/30
+
+execute if entity @s[tag=move1] run tp @s ^ ^ ^0.05
+execute if entity @s[tag=waoe] positioned ~ 65 ~ if entity @a[tag=ffcbattle,distance=..1] run scoreboard players add @a[tag=ffcbattle,distance=..1] dmg 2
+execute if entity @s[tag=waoe] positioned ~ 65 ~ if entity @a[tag=ffcbattle,distance=..1] run kill @s
 
 scoreboard players set cc bau 2
 
