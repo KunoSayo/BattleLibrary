@@ -28,7 +28,6 @@ execute if score bosstime time matches 720 run tellraw @a {"text":"\u00a7e巴尔
 execute if score bosstime time matches 750 facing entity @e[tag=thorn,limit=1] eyes rotated ~ 0 run tp @s ~ ~ ~ ~ ~
 execute if score bosstime time matches 760 run function ff14:ffc/prepare_magic_rush
 
-# todo: random x or t
 # 咒发突袭开始吟唱2s后的时候点名
 execute if score bosstime time matches 800 if score bsisX bau matches 1 run tag @a[tag=ffcbattle] add ffxing
 execute if score bosstime time matches 800 if score bsisX bau matches 1 run function ff14:cachex

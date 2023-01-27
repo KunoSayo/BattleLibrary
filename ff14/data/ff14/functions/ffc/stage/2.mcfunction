@@ -4,7 +4,7 @@ execute positioned 0 65 0 run effect give @a[tag=ffcbattle,distance=10..] minecr
 execute positioned 0 65 0 run effect give @a[tag=ffcbattle,distance=10..] minecraft:hunger 14 255
 
 
-execute if score bosstime time matches 3420 run tp @s 0 65 0
+execute if score bosstime time matches 3420 run tp @s 0 65 0 ~ 0
 execute if score bosstime time matches 3420 run scoreboard players set border bau 0
 execute if score bosstime time matches 3420 run particle minecraft:block grass 0 66 0 7 0.25 7 1 10000 force
 execute if score bosstime time matches 3420 run summon minecraft:lightning_bolt 0 99 0
@@ -39,7 +39,7 @@ execute if score bosstime time matches 4279 run tellraw @a {"text":"\u00a7a巴�
 execute if score bosstime time matches 4280 run function ff14:ffc/cruel_charge/start
 execute if score bosstime time matches 4361 run tellraw @a {"text":"\u00a7a巴尔巴莉希娅：你太得意忘形了！"}
 
-execute if score bosstime time matches 4420 run tp @s 0 65 0
+execute if score bosstime time matches 4420 run tp @s 0 65 0 ~ 0
 execute if score bosstime time matches 4460 run effect give @a[tag=ffcbattle] minecraft:poison 8 1
 execute if score bosstime time matches 3840 run tellraw @a {"text":"\u00a7e巴尔巴莉希娅发动了“咒发操控”。"}
 
@@ -88,7 +88,8 @@ execute if score bosstime time matches 4900 run tag @r[tag=ffcbattle,tag=!ffhing
 execute if score bosstime time matches 4900 run function ff14:cachet
 
 execute if score bosstime time matches 5059 run tp @s @a[tag=ffting,limit=1]
-execute if score bosstime time matches 5120 run tp 0 65 0
+execute if score bosstime time matches 5060 run tp @s ~ ~ ~ ~ 0
+execute if score bosstime time matches 5120 run tp @s 0 65 0 ~ 0
 execute if score bosstime time matches 5160 run function ff14:ffc/cruel_charge/start
 
 # chant to boyuli is 9s = 180tick
@@ -97,7 +98,7 @@ execute if score bosstime time matches 5240 run function ff14:ffc/chant_limit
 execute if score bosstime time matches 5300 run function ff14:ffc/normal_phase
 execute if score bosstime time matches 5300 run tellraw @a {"text":"\u00a7e巴尔巴莉希娅发动了“咒发拘束”。"}
 execute if score bosstime time matches 5320 run function ff14:ffc/start_limit
-execute if score bosstime time matches 5320 run tp 0 65 0
+execute if score bosstime time matches 5320 run tp @s 0 65 0 ~ 0
 execute if score bosstime time matches 5360 run function ff14:ffc/start_limit_2
 execute if score bosstime time matches 5380 run function ff14:ffc/start_limit_3_p2
 
@@ -109,7 +110,10 @@ execute if score bosstime time matches 5620 run function ff14:ffc/tornado/start
 execute if score bosstime time matches 5640 run tag @a[sort=random,limit=2,tag=ffcbattle] add ffting
 execute if score bosstime time matches 5640 run function ff14:cachet
 
+execute if score bosstime time matches 5800 run effect give @a[tag=ffcbattle] minecraft:poison 8 1
+
 execute if score bosstime time matches 5820 run tellraw @a {"text":"\u00a7a巴尔巴莉希娅：不要小看我！"}
+
 
 execute if score bosstime time matches 5839 run tellraw @a {"text":"\u00a7e巴尔巴莉希娅发动了“怒拳连震”。"}
 execute if score bosstime time matches 5840 run scoreboard players add @a[tag=ffcbattle] dmg 1
