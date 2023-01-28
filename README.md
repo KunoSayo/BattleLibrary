@@ -1,5 +1,27 @@
 # Battle Library
 
+战斗地图用基础（前置？）库，提供了一些基础的scoreboard和回调，具体参考之后介绍。
+数据包默认初始化函数包含一下规则：
+```
+gamerule maxCommandChainLength 400000
+gamerule keepInventory true
+gamerule doEntityDrops false
+gamerule doDaylightCycle false
+gamerule doWeatherCycle false
+gamerule mobGriefing false
+```
+  
+Example:  
+```
+# 初始化（会预先调用一次卸载）
+# 会强制加载区块0 0 
+function battle:init
+
+# 卸载
+function battle:uninstall
+```
+  
+
 ## APIs
 
 ```mcfunction
@@ -13,6 +35,9 @@ function battle:driveoff
 
 # 以执行位置中心半径为rad，调用battleapi:circle_cb
 function battle:circle/{rad}
+
+# 以执行位置前面宽度半径为width长度为len的直线，调用battleapi:line_cb
+function battle:line/width/len
 
 # 以执行位置中心画斜向箭头指向玩家，调用battleapi:x2self_cb
 function battle:x2self
@@ -29,10 +54,26 @@ function battle:forward
 function battle:displayn
 ```
 
+## api callback
+```mcfunction
+chant_cb: 咏唱技能时每个tick回调
+circle_cb: 圆圈上采样点的回调
+forward_cb: forward函数路径回调
+gcd_cb: 公共冷却时回调
+line_cb: 直线打表回调
+on_death: 玩家死亡回调
+on_move: 玩家走路/跑步回调
+on_sneak: 玩家潜行回调
+posttick: battlelib跑完自身tick回调
+pre: battlelib进行tick之前的回调
+x2out_cb: 玩家往外的箭头图案回调
+x2self_cb: 箭头指向玩家的回调
+```
+
 ## Scoreboards
 
 * timeToLive (dummy) 每个tick自动-1，当实体分数为0的时候自动kill
-* consts (dummy) 数学常数
+* consts (dummy) 数学常数，包含值具体参考initconst.mcfunction
 * bac (dummy) 内部计算用sb
 * bas (dummy) 函数调用传递参数sb（Battle Api Settings）
 * bau (dummy) 用户计分板，欢迎使用
@@ -43,8 +84,8 @@ function battle:displayn
 * heal(dummy) 以瞬间治疗0为基准的次数【会根据层数自动加瞬间伤害等级至1/2】（玩家only）
 * healcd (dummy) 造成伤害之后的cd
 * gcd (dummy) global cool down
-* chant (dummy) 吟唱剩余tick
-* maxchant (dummy) 吟唱对应技能所需tick
+* chant (dummy) 玩家吟唱剩余tick
+* maxchant (dummy) 玩家吟唱对应技能所需tick
 
 * Health (health) 玩家的HP
 * Death (deathCount) 死亡
@@ -56,9 +97,11 @@ function battle:displayn
 
 ## Tags
 
-* battleLibTagKill 标记将要击杀的实体
 * showDmgAs 显示伤害的盔甲架（会自动上升）
-* self 部分函数体标记执行者自身
+
+## Predicates
+r1d{n}: 表示1/n的概率通过
+
 
 ## Notes
 
