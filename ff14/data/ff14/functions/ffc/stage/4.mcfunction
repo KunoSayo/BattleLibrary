@@ -46,6 +46,7 @@ execute if score bosstime time matches 9860 run scoreboard players set @e[tag=yp
 
 execute if score bosstime time matches 9861 as @a[tag=ffcbattle] at @s run particle minecraft:dust_color_transition 0.375 0.25 0 1 1 0 0 ~ 67 ~ 0.125 0.5 0.125 1000 100
 execute if score bosstime time matches 9861 run tag @a[tag=ffcbattle] add ffxing
+execute if score bosstime time matches 9861 run tag @a add ndx
 execute if score bosstime time matches 9861 run function ff14:cachex
 execute if score bosstime time matches 9880 as @a[tag=ffcbattle] at @s run particle minecraft:dust_color_transition 0.375 0.25 0 1 1 0 0 ~ 67 ~ 0.125 0.5 0.125 1000 100
 execute if score bosstime time matches 9900 as @a[tag=ffcbattle] at @s run particle minecraft:dust_color_transition 0.375 0.25 0 1 1 0 0 ~ 67 ~ 0.125 0.5 0.125 1000 100
@@ -55,6 +56,7 @@ execute if score bosstime time matches 9900 run scoreboard players set @e[tag=yp
 
 execute if score bosstime time matches 9920 as @a[tag=ffcbattle] at @s run particle minecraft:dust_color_transition 0.375 0.25 0 1 1 0 0 ~ 67 ~ 0.125 0.5 0.125 1000 100
 execute if score bosstime time matches 9940 as @a[tag=ffcbattle] at @s run particle minecraft:dust_color_transition 0.375 0.25 0 1 1 0 0 ~ 67 ~ 0.125 0.5 0.125 1000 100
+execute if score bosstime time matches 9959 run tag @a remove ndx
 execute if score bosstime time matches 9960 as @a[tag=ffcbattle] at @s run summon minecraft:armor_stand ~ 65 ~ {NoGravity:1b, Marker:1b, Tags:[bossas, ffcas, aoeas, aoe7.5], Invisible:1b}
 execute if score bosstime time matches 9960 run scoreboard players set @e[tag=aoe7.5] timeToLive 60
 execute if score bosstime time matches 9960 run function ff14:ffc/cruel_charge/start

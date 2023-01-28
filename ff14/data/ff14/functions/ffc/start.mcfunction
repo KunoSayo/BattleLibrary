@@ -38,6 +38,11 @@ scoreboard objectives modify dmgstats displayname "Total Damage"
 scoreboard objectives modify dps displayname "DPS (*100)"
 
 tag @a remove ffcbattle
+tag @a remove ndx
+tag @a remove ffxing
+tag @a remove ffting
+tag @a remove ffhing
+tag @a remove respawn
 tag @a[gamemode=adventure] add ffcbattle
 tag @a[gamemode=creative] add ffcbattle
 scoreboard objectives setdisplay sidebar dps

@@ -21,11 +21,13 @@ execute if score bosstime time matches 3840 run tellraw @a {"text":"\u00a7eå·´å°
 
 execute if score bosstime time matches 3900 as @a[tag=ffcbattle] at @s run particle minecraft:dust_color_transition 0.375 0.25 0 1 1 0 0 ~ 67 ~ 0.125 0.5 0.125 1000 100
 execute if score bosstime time matches 3900 run tag @a[tag=ffcbattle] add ffxing
+execute if score bosstime time matches 3900 run tag @a add ndx
 execute if score bosstime time matches 3900 run function ff14:cachex
 execute if score bosstime time matches 3920 as @a[tag=ffcbattle] at @s run particle minecraft:dust_color_transition 0.375 0.25 0 1 1 0 0 ~ 67 ~ 0.125 0.5 0.125 1000 100
 execute if score bosstime time matches 3940 as @a[tag=ffcbattle] at @s run particle minecraft:dust_color_transition 0.375 0.25 0 1 1 0 0 ~ 67 ~ 0.125 0.5 0.125 1000 100
 execute if score bosstime time matches 3960 as @a[tag=ffcbattle] at @s run particle minecraft:dust_color_transition 0.375 0.25 0 1 1 0 0 ~ 67 ~ 0.125 0.5 0.125 1000 100
 execute if score bosstime time matches 3980 as @a[tag=ffcbattle] at @s run particle minecraft:dust_color_transition 0.375 0.25 0 1 1 0 0 ~ 67 ~ 0.125 0.5 0.125 1000 100
+execute if score bosstime time matches 3999 run tag @a remove ndx
 execute if score bosstime time matches 4000 as @a[tag=ffcbattle] at @s run summon minecraft:armor_stand ~ 65 ~ {NoGravity:1b, Marker:1b, Tags:[bossas, ffcas, aoeas, aoe7.5], Invisible:1b}
 execute if score bosstime time matches 4000 run scoreboard players set @e[tag=aoe7.5] timeToLive 60
 

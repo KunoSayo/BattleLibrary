@@ -37,13 +37,13 @@ mod scripts {
         let mut rad = 0.5;
         while rad <= 25.0 {
             let mut file = gen_file(&format!("circle/{:.1}", rad), OVERWRITE)?;
-            let step = if rad <= 1.0 {
+            let step = if rad <= 3.0 {
                 10.0
-            } else if rad <= 3.0 {
-                5.0
             } else if rad <= 5.0 {
-                4.0
+                5.0
             } else if rad <= 10.0 {
+                4.0
+            } else if rad <= 15.0 {
                 2.0
             } else {
                 1.0
