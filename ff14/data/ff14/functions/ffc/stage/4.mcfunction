@@ -23,15 +23,14 @@ execute if score bosstime time matches 9580 run particle minecraft:block grass 0
 
 execute if score bosstime time matches 9620 run scoreboard players add @a[tag=ffcbattle] dmg 1
 execute if score bosstime time matches 9620 run particle minecraft:block grass 0 66 0 7 0.25 7 1 10000 force
-execute if score bosstime time matches 9660 run scoreboard players add @a[tag=ffcbattle] dmg 1
-execute if score bosstime time matches 9660 run particle minecraft:block grass 0 66 0 7 0.25 7 1 10000 force
+
 execute if score bosstime time matches 9680 run scoreboard players add @a[tag=ffcbattle] dmg 1
 execute if score bosstime time matches 9680 run particle minecraft:block grass 0 66 0 7 0.25 7 1 10000 force
-execute if score bosstime time matches 9700 run scoreboard players add @a[tag=ffcbattle] dmg 2
+execute if score bosstime time matches 9700 run scoreboard players add @a[tag=ffcbattle] dmg 1
 execute if score bosstime time matches 9700 run particle minecraft:block grass 0 66 0 7 0.25 7 1 10000 force
 
 execute if score bosstime time matches 9779 run tellraw @a {"text":"\u00a7e巴尔巴莉希娅发动了“重拳激震”。"}
-execute if score bosstime time matches 9780 run scoreboard players add @a[tag=ffcbattle] dmg 2
+execute if score bosstime time matches 9780 run scoreboard players add @a[tag=ffcbattle] dmg 1
 execute if score bosstime time matches 9780 run particle minecraft:block grass 0 66 0 7 0.25 7 1 5000 force
 execute if score bosstime time matches 9780 run particle minecraft:block grass_block 0 66 0 7 0.25 7 1 5000 force
 
@@ -105,15 +104,14 @@ execute if score bosstime time matches 11600 run particle minecraft:block grass 
 
 execute if score bosstime time matches 11640 run scoreboard players add @a[tag=ffcbattle] dmg 1
 execute if score bosstime time matches 11640 run particle minecraft:block grass 0 66 0 7 0.25 7 1 10000 force
-execute if score bosstime time matches 11680 run scoreboard players add @a[tag=ffcbattle] dmg 1
-execute if score bosstime time matches 11680 run particle minecraft:block grass 0 66 0 7 0.25 7 1 10000 force
+
 execute if score bosstime time matches 11700 run scoreboard players add @a[tag=ffcbattle] dmg 1
 execute if score bosstime time matches 11700 run particle minecraft:block grass 0 66 0 7 0.25 7 1 10000 force
-execute if score bosstime time matches 11720 run scoreboard players add @a[tag=ffcbattle] dmg 2
+execute if score bosstime time matches 11720 run scoreboard players add @a[tag=ffcbattle] dmg 1
 execute if score bosstime time matches 11720 run particle minecraft:block grass 0 66 0 7 0.25 7 1 10000 force
 
 execute if score bosstime time matches 11799 run tellraw @a {"text":"\u00a7e巴尔巴莉希娅发动了“重拳激震”。"}
-execute if score bosstime time matches 11800 run scoreboard players add @a[tag=ffcbattle] dmg 2
+execute if score bosstime time matches 11800 run scoreboard players add @a[tag=ffcbattle] dmg 1
 execute if score bosstime time matches 11800 run particle minecraft:block grass 0 66 0 7 0.25 7 1 5000 force
 execute if score bosstime time matches 11800 run particle minecraft:block grass_block 0 66 0 7 0.25 7 1 5000 force
 
