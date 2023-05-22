@@ -1,6 +1,7 @@
 .idea
-
+.vsc
 /target
 
 
 *.bat
+*.zip
