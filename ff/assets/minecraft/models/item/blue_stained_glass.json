@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "minecraft:block/blue_stained_glass"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 99610
+      },
+      "model": "ff:item/yellow_aoe"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 99611
+      },
+      "model": "ff:item/yellow_ring"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 99612
+      },
+      "model": "ff:item/red_aoe"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 99613
+      },
+      "model": "ff:item/red_ring"
+    }
+  ]
+}
