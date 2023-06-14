@@ -57,7 +57,12 @@
             "type": "paletted_permutations",
             "textures": [
                 "block/circle",
-                "block/ring"
+                "block/ring",
+                "block/ring2",
+                "block/ring4",
+                "block/ring_4",
+                "block/ring_8",
+                "block/up"
             ],
             "palette_key": "trims/color_palettes/white",
             "permutations": {

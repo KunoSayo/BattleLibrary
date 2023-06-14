@@ -1,0 +1,6 @@
+{
+    "parent": "ff:item/plane",
+    "textures": {
+        "ffcircle": "block/ring_8_red"
+    }
+}

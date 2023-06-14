@@ -8,25 +8,145 @@
       "predicate": {
         "custom_model_data": 99610
       },
-      "model": "ff:item/yellow_aoe"
+      "model": "ff:item/circle_red"
     },
     {
       "predicate": {
         "custom_model_data": 99611
       },
-      "model": "ff:item/yellow_ring"
+      "model": "ff:item/circle_red_a"
     },
     {
       "predicate": {
         "custom_model_data": 99612
       },
-      "model": "ff:item/red_aoe"
+      "model": "ff:item/circle_warning"
     },
     {
       "predicate": {
-        "custom_model_data": 99613
+        "custom_model_data": 99614
       },
-      "model": "ff:item/red_ring"
+      "model": "ff:item/circle_yellow"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 99710
+      },
+      "model": "ff:item/ring_red"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 99711
+      },
+      "model": "ff:item/ring_red_a"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 99712
+      },
+      "model": "ff:item/ring_warning"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 99714
+      },
+      "model": "ff:item/ring_yellow"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 99810
+      },
+      "model": "ff:item/ring2_red"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 99811
+      },
+      "model": "ff:item/ring2_red_a"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 99812
+      },
+      "model": "ff:item/ring2_warning"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 99814
+      },
+      "model": "ff:item/ring2_yellow"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 99910
+      },
+      "model": "ff:item/ring_4_red"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 99911
+      },
+      "model": "ff:item/ring_4_red_a"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 99912
+      },
+      "model": "ff:item/ring_4_warning"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 99914
+      },
+      "model": "ff:item/ring_4_yellow"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 100010
+      },
+      "model": "ff:item/ring_8_red"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 100011
+      },
+      "model": "ff:item/ring_8_red_a"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 100012
+      },
+      "model": "ff:item/ring_8_warning"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 100014
+      },
+      "model": "ff:item/ring_8_yellow"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 100110
+      },
+      "model": "ff:item/up_red"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 100111
+      },
+      "model": "ff:item/up_red_a"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 100112
+      },
+      "model": "ff:item/up_warning"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 100114
+      },
+      "model": "ff:item/up_yellow"
     }
   ]
 }
