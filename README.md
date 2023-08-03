@@ -73,6 +73,8 @@ x2self_cb: 箭头指向玩家的回调
 ## Scoreboards
 
 * timeToLive (dummy) 每个tick自动-1，当实体分数为0的时候自动kill
+* liveticks (dummy) 每个非玩家实体 tick自动+1
+* 
 * consts (dummy) 数学常数，包含值具体参考initconst.mcfunction
 * bac (dummy) 内部计算用sb
 * bas (dummy) 函数调用传递参数sb（Battle Api Settings）

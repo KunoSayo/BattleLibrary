@@ -78,7 +78,6 @@ pub fn target_circle() -> ScriptReturn {
         }
         if r > 1.0 {
             let mut draw_arrow = |forward, left| -> ScriptReturn {
-
                 let (sin, cos) = 22.5_f64.to_radians().sin_cos();
                 let step = 0.125;
                 let left_delta = step * sin;

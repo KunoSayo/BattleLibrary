@@ -1,11 +1,11 @@
-mod ff14;
-
 use std::fs::File;
 use std::io::{Error, Write};
 use std::path::Path;
-use crate::ff14::{gcd_ui, target_circle, tri_aoe};
 
+use crate::ff14::{gcd_ui, target_circle, tri_aoe};
 use crate::scripts::{arrows, init_consts, lines};
+
+mod ff14;
 
 pub const OVERWRITE: bool = false;
 
@@ -26,12 +26,10 @@ fn gen_file(name: &str, overwrite: bool) -> Result<File, Error> {
 }
 
 
-
 mod scripts {
-    use std::io::{Write};
+    use std::io::Write;
 
     use crate::{gen_file, OVERWRITE, ScriptReturn};
-
 
     pub fn circles() -> ScriptReturn {
         let mut rad = 0.5;
@@ -84,7 +82,6 @@ mod scripts {
             for dis in (6..).map(|x| x as f64 * 0.25).take_while(|x| *x <= line_len) {
                 writeln!(out_file, "execute positioned ~ ~ ~{dis} run function battleapi:x2out_cb")?;
             }
-
 
 
             let (dy, dx) = 120.0_f64.to_radians().sin_cos();
@@ -191,8 +188,6 @@ mod scripts {
         }
         Ok(())
     }
-
-
 }
 
 fn main() {

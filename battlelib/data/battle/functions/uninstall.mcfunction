@@ -1,4 +1,5 @@
 scoreboard objectives remove timeToLive
+scoreboard objectives remove liveticks
 scoreboard objectives remove consts
 scoreboard objectives remove bas
 scoreboard objectives remove bac

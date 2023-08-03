@@ -1,6 +1,7 @@
 function battle:uninstall
 
 scoreboard objectives add timeToLive dummy
+scoreboard objectives add liveticks dummy
 scoreboard objectives add bas dummy
 scoreboard objectives add bac dummy
 scoreboard objectives add bau dummy

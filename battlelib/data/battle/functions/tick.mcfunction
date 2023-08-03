@@ -8,7 +8,7 @@ scoreboard players reset @e[tag=battleLibTagKill] timeToLive
 kill @e[tag=battleLibTagKill]
 scoreboard players operation @e[scores={timeToLive=1..}] timeToLive -= 1 consts
 
-
+scoreboard players add @e[type=!player] liveticks 1
 
 
 # Time logic

@@ -69,7 +69,8 @@
                 "yellow": "trims/color_palettes/yellow",
                 "warning": "trims/color_palettes/warning",
                 "red": "trims/color_palettes/red",
-                "red_a": "trims/color_palettes/red_a"
+                "red_a": "trims/color_palettes/red_a",
+                "purple_a": "trims/color_palettes/purple_a"
             }
         }
     ]
