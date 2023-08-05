@@ -1,1 +1,1 @@
-function ff14:chant_cb
+function ff14:std/class/chant_cb

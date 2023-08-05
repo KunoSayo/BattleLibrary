@@ -62,6 +62,7 @@
                 "block/ring4",
                 "block/ring_4",
                 "block/ring_8",
+                "block/plane",
                 "block/up"
             ],
             "palette_key": "trims/color_palettes/white",

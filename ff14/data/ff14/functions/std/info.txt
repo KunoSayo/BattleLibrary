@@ -1,0 +1,11 @@
+pre tick update:
+ui
+
+post tick update:
+game event
+anime effects
+
+
+Tags
+noskill: won't show skill ui
+gaming: the player playing game

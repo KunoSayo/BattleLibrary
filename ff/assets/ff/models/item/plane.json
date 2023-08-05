@@ -14,10 +14,10 @@
       "faces": {
         "down": {
           "uv": [
-            0,
-            0,
             16,
-            16
+            16,
+            0,
+            0
           ],
           "texture": "#ffcircle"
         },

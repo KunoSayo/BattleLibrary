@@ -86,6 +86,12 @@ fn gen_block_texture() {
         img
     });
 
+    gen(path.join("plane.png"), || {
+        let mut img = ImageBuffer::new(1, 1);
+        img.put_pixel(0, 0, Rgba::from([255, 255, 255, 255]));
+        img
+    });
+
     gen(path.join("up.png"), || {
         let mut img = ImageBuffer::new(IMG_LEN, IMG_LEN);
         for x in 0..IMG_LEN {

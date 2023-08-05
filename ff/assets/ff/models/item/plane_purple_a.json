@@ -1,0 +1,6 @@
+{
+    "parent": "ff:item/plane",
+    "textures": {
+        "ffcircle": "block/plane_purple_a"
+    }
+}

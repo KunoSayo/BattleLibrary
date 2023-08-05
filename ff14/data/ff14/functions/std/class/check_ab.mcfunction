@@ -1,0 +1,1 @@
+execute if entity @s[tag=white_magic] run function ff14:std/class/white_magic/check_ab
