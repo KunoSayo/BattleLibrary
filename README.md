@@ -99,7 +99,7 @@ x2self_cb: 箭头指向玩家的回调
 
 ## Tags
 
-* showDmgAs 显示伤害的盔甲架（会自动上升）
+* showDmgAs 显示伤害的实体（会自动上升）
 
 ## Predicates
 r1d{n}: 表示1/n的概率通过

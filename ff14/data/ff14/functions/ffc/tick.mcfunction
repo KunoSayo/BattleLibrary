@@ -11,7 +11,6 @@ execute as @a[tag=ffcbattle] at @s run spawnpoint @s ~ 66 ~
 
 execute as @e[type=armor_stand, tag=boss] at @s run function ff14:ffc/stage/tick
 
-kill @e[type=item]
 execute as @a unless data entity @s ActiveEffects[{Id:17}] run effect give @s minecraft:saturation 9 0 true
 execute as @a if data entity @s ActiveEffects[{Id:17}] run effect clear @s minecraft:saturation
 

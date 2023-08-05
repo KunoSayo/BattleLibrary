@@ -11,5 +11,5 @@ execute if score @s Health matches 1.. if score output bac matches 70.. run scor
 scoreboard players reset @s chant
 tp @s ~ 71 ~
 execute store result score @s Health run data get entity @s Health
-tag @s remove ffcbattle
+tag @s remove gaming
 clear @s
