@@ -3,7 +3,7 @@ scoreboard players set aoedmg bau 1
 
 scoreboard players set cc bau 1
 
-execute positioned ~ 60 ~ rotated ~ 0 run function battle:line/0.5/30
+execute positioned ~ 60 ~ rotated ~ 0 run function battle:line/1.5/30
 
 scoreboard players reset @s dmgcache
 tag @s add _atk_owner
