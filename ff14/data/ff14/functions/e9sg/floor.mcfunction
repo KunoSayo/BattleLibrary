@@ -31,7 +31,7 @@ execute if score @s[tag=disappear] liveticks matches 580 positioned ~0.0 ~0.005 
 execute if score @s[tag=disappear] liveticks matches 585 positioned ~0.0 ~0.005 ~0.0 run function ff14:std/rs/rr8.5s
 execute if score @s[tag=disappear] liveticks matches 590 positioned ~0.0 ~0.005 ~0.0 run function ff14:std/rs/rr8.5s
 
-execute if score @s liveticks matches 601 run fill ~-4 ~-1 ~-4 ~4 ~-1 ~4 air destroy
+execute if score @s liveticks matches 601 run fill ~-3.9 ~-1 ~-3.9 ~3.9 ~-1 ~3.9 air destroy
 
 
 # time to rollback

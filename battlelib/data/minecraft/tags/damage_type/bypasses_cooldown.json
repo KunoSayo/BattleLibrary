@@ -1,5 +1,6 @@
 {
   "values": [
-    "battle:true_damage"
+    "battle:true_damage",
+    "battle:arrow_damage"
   ]
 }

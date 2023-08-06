@@ -38,7 +38,7 @@ tag @a[gamemode=!spectator] add gaming
 
 tag @e[tag=!selected,limit=1,sort=random,tag=e9sfloor] add selecting
 tag @a[tag=!joined, sort=random, limit=1] add joining
-execute positioned as @e[tag=selecting, limit=1] as @a[tag=joining] run tp @s ~ ~ ~
+execute positioned as @e[tag=selecting, limit=1] as @a[tag=joining] run tp @s ~ ~10 ~
 tag @e[tag=selecting] add selected
 tag @e[tag=joining] add joined
 tag @e remove selecting
@@ -46,7 +46,7 @@ tag @a remove joining
 
 tag @e[tag=!selected,limit=1,sort=random,tag=e9sfloor] add selecting
 tag @a[tag=!joined, sort=random, limit=1] add joining
-execute positioned as @e[tag=selecting, limit=1] as @a[tag=joining] run tp @s ~ ~ ~
+execute positioned as @e[tag=selecting, limit=1] as @a[tag=joining] run tp @s ~ ~10 ~
 tag @e[tag=selecting] add selected
 tag @e[tag=joining] add joined
 tag @e remove selecting
@@ -54,7 +54,7 @@ tag @a remove joining
 
 tag @e[tag=!selected,limit=1,sort=random,tag=e9sfloor] add selecting
 tag @a[tag=!joined, sort=random, limit=1] add joining
-execute positioned as @e[tag=selecting, limit=1] as @a[tag=joining] run tp @s ~ ~ ~
+execute positioned as @e[tag=selecting, limit=1] as @a[tag=joining] run tp @s ~ ~10 ~
 tag @e[tag=selecting] add selected
 tag @e[tag=joining] add joined
 tag @e remove selecting
@@ -62,7 +62,7 @@ tag @a remove joining
 
 tag @e[tag=!selected,limit=1,sort=random,tag=e9sfloor] add selecting
 tag @a[tag=!joined, sort=random, limit=1] add joining
-execute positioned as @e[tag=selecting, limit=1] as @a[tag=joining] run tp @s ~ ~ ~
+execute positioned as @e[tag=selecting, limit=1] as @a[tag=joining] run tp @s ~ ~10 ~
 tag @e[tag=selecting] add selected
 tag @e[tag=joining] add joined
 tag @e remove selecting
@@ -70,7 +70,7 @@ tag @a remove joining
 
 tag @e[tag=!selected,limit=1,sort=random,tag=e9sfloor] add selecting
 tag @a[tag=!joined, sort=random, limit=1] add joining
-execute positioned as @e[tag=selecting, limit=1] as @a[tag=joining] run tp @s ~ ~ ~
+execute positioned as @e[tag=selecting, limit=1] as @a[tag=joining] run tp @s ~ ~10 ~
 tag @e[tag=selecting] add selected
 tag @e[tag=joining] add joined
 tag @e remove selecting
@@ -78,7 +78,7 @@ tag @a remove joining
 
 tag @e[tag=!selected,limit=1,sort=random,tag=e9sfloor] add selecting
 tag @a[tag=!joined, sort=random, limit=1] add joining
-execute positioned as @e[tag=selecting, limit=1] as @a[tag=joining] run tp @s ~ ~ ~
+execute positioned as @e[tag=selecting, limit=1] as @a[tag=joining] run tp @s ~ ~10 ~
 tag @e[tag=selecting] add selected
 tag @e[tag=joining] add joined
 tag @e remove selecting
@@ -86,7 +86,7 @@ tag @a remove joining
 
 tag @e[tag=!selected,limit=1,sort=random,tag=e9sfloor] add selecting
 tag @a[tag=!joined, sort=random, limit=1] add joining
-execute positioned as @e[tag=selecting, limit=1] as @a[tag=joining] run tp @s ~ ~ ~
+execute positioned as @e[tag=selecting, limit=1] as @a[tag=joining] run tp @s ~ ~10 ~
 tag @e[tag=selecting] add selected
 tag @e[tag=joining] add joined
 tag @e remove selecting
@@ -94,7 +94,7 @@ tag @a remove joining
 
 tag @e[tag=!selected,limit=1,sort=random,tag=e9sfloor] add selecting
 tag @a[tag=!joined, sort=random, limit=1] add joining
-execute positioned as @e[tag=selecting, limit=1] as @a[tag=joining] run tp @s ~ ~ ~
+execute positioned as @e[tag=selecting, limit=1] as @a[tag=joining] run tp @s ~ ~10 ~
 tag @e[tag=selecting] add selected
 tag @e[tag=joining] add joined
 tag @e remove selecting
@@ -102,7 +102,7 @@ tag @a remove joining
 
 tag @e[tag=!selected,limit=1,sort=random,tag=e9sfloor] add selecting
 tag @a[tag=!joined, sort=random, limit=1] add joining
-execute positioned as @e[tag=selecting, limit=1] as @a[tag=joining] run tp @s ~ ~ ~
+execute positioned as @e[tag=selecting, limit=1] as @a[tag=joining] run tp @s ~ ~10 ~
 tag @e[tag=selecting] add selected
 tag @e[tag=joining] add joined
 tag @e remove selecting
@@ -110,7 +110,7 @@ tag @a remove joining
 
 tag @e[tag=!selected,limit=1,sort=random,tag=e9sfloor] add selecting
 tag @a[tag=!joined, sort=random, limit=1] add joining
-execute positioned as @e[tag=selecting, limit=1] as @a[tag=joining] run tp @s ~ ~ ~
+execute positioned as @e[tag=selecting, limit=1] as @a[tag=joining] run tp @s ~ ~10 ~
 tag @e[tag=selecting] add selected
 tag @e[tag=joining] add joined
 tag @e remove selecting
@@ -118,7 +118,7 @@ tag @a remove joining
 
 tag @e[tag=!selected,limit=1,sort=random,tag=e9sfloor] add selecting
 tag @a[tag=!joined, sort=random, limit=1] add joining
-execute positioned as @e[tag=selecting, limit=1] as @a[tag=joining] run tp @s ~ ~ ~
+execute positioned as @e[tag=selecting, limit=1] as @a[tag=joining] run tp @s ~ ~10 ~
 tag @e[tag=selecting] add selected
 tag @e[tag=joining] add joined
 tag @e remove selecting
@@ -126,7 +126,7 @@ tag @a remove joining
 
 tag @e[tag=!selected,limit=1,sort=random,tag=e9sfloor] add selecting
 tag @a[tag=!joined, sort=random, limit=1] add joining
-execute positioned as @e[tag=selecting, limit=1] as @a[tag=joining] run tp @s ~ ~ ~
+execute positioned as @e[tag=selecting, limit=1] as @a[tag=joining] run tp @s ~ ~10 ~
 tag @e[tag=selecting] add selected
 tag @e[tag=joining] add joined
 tag @e remove selecting
@@ -134,7 +134,7 @@ tag @a remove joining
 
 tag @e[tag=!selected,limit=1,sort=random,tag=e9sfloor] add selecting
 tag @a[tag=!joined, sort=random, limit=1] add joining
-execute positioned as @e[tag=selecting, limit=1] as @a[tag=joining] run tp @s ~ ~ ~
+execute positioned as @e[tag=selecting, limit=1] as @a[tag=joining] run tp @s ~ ~10 ~
 tag @e[tag=selecting] add selected
 tag @e[tag=joining] add joined
 tag @e remove selecting
@@ -142,7 +142,7 @@ tag @a remove joining
 
 tag @e[tag=!selected,limit=1,sort=random,tag=e9sfloor] add selecting
 tag @a[tag=!joined, sort=random, limit=1] add joining
-execute positioned as @e[tag=selecting, limit=1] as @a[tag=joining] run tp @s ~ ~ ~
+execute positioned as @e[tag=selecting, limit=1] as @a[tag=joining] run tp @s ~ ~10 ~
 tag @e[tag=selecting] add selected
 tag @e[tag=joining] add joined
 tag @e remove selecting
@@ -150,7 +150,7 @@ tag @a remove joining
 
 tag @e[tag=!selected,limit=1,sort=random,tag=e9sfloor] add selecting
 tag @a[tag=!joined, sort=random, limit=1] add joining
-execute positioned as @e[tag=selecting, limit=1] as @a[tag=joining] run tp @s ~ ~ ~
+execute positioned as @e[tag=selecting, limit=1] as @a[tag=joining] run tp @s ~ ~10 ~
 tag @e[tag=selecting] add selected
 tag @e[tag=joining] add joined
 tag @e remove selecting
@@ -158,7 +158,7 @@ tag @a remove joining
 
 tag @e[tag=!selected,limit=1,sort=random,tag=e9sfloor] add selecting
 tag @a[tag=!joined, sort=random, limit=1] add joining
-execute positioned as @e[tag=selecting, limit=1] as @a[tag=joining] run tp @s ~ ~ ~
+execute positioned as @e[tag=selecting, limit=1] as @a[tag=joining] run tp @s ~ ~10 ~
 tag @e[tag=selecting] add selected
 tag @e[tag=joining] add joined
 tag @e remove selecting
@@ -166,7 +166,7 @@ tag @a remove joining
 
 tag @e[tag=!selected,limit=1,sort=random,tag=e9sfloor] add selecting
 tag @a[tag=!joined, sort=random, limit=1] add joining
-execute positioned as @e[tag=selecting, limit=1] as @a[tag=joining] run tp @s ~ ~ ~
+execute positioned as @e[tag=selecting, limit=1] as @a[tag=joining] run tp @s ~ ~10 ~
 tag @e[tag=selecting] add selected
 tag @e[tag=joining] add joined
 tag @e remove selecting
@@ -174,7 +174,7 @@ tag @a remove joining
 
 tag @e[tag=!selected,limit=1,sort=random,tag=e9sfloor] add selecting
 tag @a[tag=!joined, sort=random, limit=1] add joining
-execute positioned as @e[tag=selecting, limit=1] as @a[tag=joining] run tp @s ~ ~ ~
+execute positioned as @e[tag=selecting, limit=1] as @a[tag=joining] run tp @s ~ ~10 ~
 tag @e[tag=selecting] add selected
 tag @e[tag=joining] add joined
 tag @e remove selecting
@@ -182,7 +182,7 @@ tag @a remove joining
 
 tag @e[tag=!selected,limit=1,sort=random,tag=e9sfloor] add selecting
 tag @a[tag=!joined, sort=random, limit=1] add joining
-execute positioned as @e[tag=selecting, limit=1] as @a[tag=joining] run tp @s ~ ~ ~
+execute positioned as @e[tag=selecting, limit=1] as @a[tag=joining] run tp @s ~ ~10 ~
 tag @e[tag=selecting] add selected
 tag @e[tag=joining] add joined
 tag @e remove selecting
@@ -190,7 +190,7 @@ tag @a remove joining
 
 tag @e[tag=!selected,limit=1,sort=random,tag=e9sfloor] add selecting
 tag @a[tag=!joined, sort=random, limit=1] add joining
-execute positioned as @e[tag=selecting, limit=1] as @a[tag=joining] run tp @s ~ ~ ~
+execute positioned as @e[tag=selecting, limit=1] as @a[tag=joining] run tp @s ~ ~10 ~
 tag @e[tag=selecting] add selected
 tag @e[tag=joining] add joined
 tag @e remove selecting
@@ -198,7 +198,7 @@ tag @a remove joining
 
 tag @e[tag=!selected,limit=1,sort=random,tag=e9sfloor] add selecting
 tag @a[tag=!joined, sort=random, limit=1] add joining
-execute positioned as @e[tag=selecting, limit=1] as @a[tag=joining] run tp @s ~ ~ ~
+execute positioned as @e[tag=selecting, limit=1] as @a[tag=joining] run tp @s ~ ~10 ~
 tag @e[tag=selecting] add selected
 tag @e[tag=joining] add joined
 tag @e remove selecting
@@ -206,7 +206,7 @@ tag @a remove joining
 
 tag @e[tag=!selected,limit=1,sort=random,tag=e9sfloor] add selecting
 tag @a[tag=!joined, sort=random, limit=1] add joining
-execute positioned as @e[tag=selecting, limit=1] as @a[tag=joining] run tp @s ~ ~ ~
+execute positioned as @e[tag=selecting, limit=1] as @a[tag=joining] run tp @s ~ ~10 ~
 tag @e[tag=selecting] add selected
 tag @e[tag=joining] add joined
 tag @e remove selecting
@@ -214,7 +214,7 @@ tag @a remove joining
 
 tag @e[tag=!selected,limit=1,sort=random,tag=e9sfloor] add selecting
 tag @a[tag=!joined, sort=random, limit=1] add joining
-execute positioned as @e[tag=selecting, limit=1] as @a[tag=joining] run tp @s ~ ~ ~
+execute positioned as @e[tag=selecting, limit=1] as @a[tag=joining] run tp @s ~ ~10 ~
 tag @e[tag=selecting] add selected
 tag @e[tag=joining] add joined
 tag @e remove selecting
@@ -222,7 +222,7 @@ tag @a remove joining
 
 tag @e[tag=!selected,limit=1,sort=random,tag=e9sfloor] add selecting
 tag @a[tag=!joined, sort=random, limit=1] add joining
-execute positioned as @e[tag=selecting, limit=1] as @a[tag=joining] run tp @s ~ ~ ~
+execute positioned as @e[tag=selecting, limit=1] as @a[tag=joining] run tp @s ~ ~10 ~
 tag @e[tag=selecting] add selected
 tag @e[tag=joining] add joined
 tag @e remove selecting
@@ -230,7 +230,7 @@ tag @a remove joining
 
 tag @e[tag=!selected,limit=1,sort=random,tag=e9sfloor] add selecting
 tag @a[tag=!joined, sort=random] add joining
-execute positioned as @e[tag=selecting, limit=1] as @a[tag=joining] run tp @s ~ ~ ~
+execute positioned as @e[tag=selecting, limit=1] as @a[tag=joining] run tp @s ~ ~10 ~
 tag @e[tag=selecting] add selected
 tag @e[tag=joining] add joined
 tag @e remove selecting

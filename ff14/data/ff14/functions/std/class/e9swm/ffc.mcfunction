@@ -2,7 +2,7 @@ scoreboard players set @s ffccd 900
 
 playsound minecraft:block.grass.place player @a ~ ~ ~ 1000 1
 
-execute positioned ~ 60.501 ~ run function ff14:std/rs/cg7.5.25sto.5s
+execute positioned ~ 60.501 ~ run function ff14:std/rs/cg15.25sto.5s
 
 scoreboard players set driveoff bas 1
 

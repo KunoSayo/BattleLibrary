@@ -1,0 +1,2 @@
+summon minecraft:item_display ~ ~ ~ {"item_display":"none", "item":{"id":"minecraft:blue_stained_glass", Count:1b, tag:{CustomModelData:99914}}, Tags:["30_1s"], transformation:[0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0]}
+scoreboard players set @e[tag=30_1s] timeToLive 21
