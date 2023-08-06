@@ -1,7 +1,10 @@
 scoreboard players reset @a dmgcache
 scoreboard players set aoedmg bau 1
 
+scoreboard players set cc bau 1
+
 execute positioned ~ 60 ~ rotated ~ 0 run function battle:line/0.5/30
+
 scoreboard players reset @s dmgcache
 tag @s add _atk_owner
 
@@ -13,7 +16,7 @@ execute as @a[scores={dmgcache=1}] run damage @s 10 battle:arrow_damage by @a[ta
 item replace entity @s weapon.mainhand from entity @s inventory.16
 item replace entity @s inventory.16 with air
 
-tag @s remove _atk_owner
+tag @a remove _atk_owner
 
 
 scoreboard players reset @a dmgcache

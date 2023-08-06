@@ -239,6 +239,8 @@ tag @a remove joining
 effect give @a[tag=gaming] minecraft:blindness 3 0 true
 effect give @a[tag=gaming] minecraft:night_vision 3 0 true
 effect give @a[tag=gaming] minecraft:slowness 3 127 true
+effect give @a minecraft:instant_health 1 10 true
+
 title @a subtitle {"text":"注意隐藏手上物品"}
 title @a title {"text":"游戏开始！"}
 
@@ -246,3 +248,5 @@ scoreboard objectives remove dcstats
 scoreboard objectives add dcstats dummy
 scoreboard objectives setdisplay sidebar dcstats
 scoreboard players set @a dcstats 0
+
+spawnpoint @a 0 60 66

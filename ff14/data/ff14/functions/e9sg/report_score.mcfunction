@@ -1,1 +1,1 @@
-tellraw @a [{"text":"* "}, {"selector":"@s"}, {"text":" 积分是"}, {"score":{"name":"*", "objective":"dcstats"}}]
+tellraw @a [{"text":"* "}, {"selector":"@s"}, {"text":" 积分是"}, {"score":{"name":"@s", "objective":"dcstats"}}]
