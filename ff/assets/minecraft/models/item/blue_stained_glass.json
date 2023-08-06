@@ -8,29 +8,35 @@
       "predicate": {
         "custom_model_data": 99610
       },
-      "model": "ff:item/circle_purple_a"
+      "model": "ff:item/circle_ffc"
     },
     {
       "predicate": {
         "custom_model_data": 99611
       },
-      "model": "ff:item/circle_red"
+      "model": "ff:item/circle_purple_a"
     },
     {
       "predicate": {
         "custom_model_data": 99612
       },
-      "model": "ff:item/circle_red_a"
+      "model": "ff:item/circle_red"
     },
     {
       "predicate": {
         "custom_model_data": 99613
       },
+      "model": "ff:item/circle_red_a"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 99614
+      },
       "model": "ff:item/circle_warning"
     },
     {
       "predicate": {
-        "custom_model_data": 99615
+        "custom_model_data": 99616
       },
       "model": "ff:item/circle_yellow"
     },
@@ -38,29 +44,35 @@
       "predicate": {
         "custom_model_data": 99710
       },
-      "model": "ff:item/plane_purple_a"
+      "model": "ff:item/plane_ffc"
     },
     {
       "predicate": {
         "custom_model_data": 99711
       },
-      "model": "ff:item/plane_red"
+      "model": "ff:item/plane_purple_a"
     },
     {
       "predicate": {
         "custom_model_data": 99712
       },
-      "model": "ff:item/plane_red_a"
+      "model": "ff:item/plane_red"
     },
     {
       "predicate": {
         "custom_model_data": 99713
       },
+      "model": "ff:item/plane_red_a"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 99714
+      },
       "model": "ff:item/plane_warning"
     },
     {
       "predicate": {
-        "custom_model_data": 99715
+        "custom_model_data": 99716
       },
       "model": "ff:item/plane_yellow"
     },
@@ -68,29 +80,35 @@
       "predicate": {
         "custom_model_data": 99810
       },
-      "model": "ff:item/ring_purple_a"
+      "model": "ff:item/ring_ffc"
     },
     {
       "predicate": {
         "custom_model_data": 99811
       },
-      "model": "ff:item/ring_red"
+      "model": "ff:item/ring_purple_a"
     },
     {
       "predicate": {
         "custom_model_data": 99812
       },
-      "model": "ff:item/ring_red_a"
+      "model": "ff:item/ring_red"
     },
     {
       "predicate": {
         "custom_model_data": 99813
       },
+      "model": "ff:item/ring_red_a"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 99814
+      },
       "model": "ff:item/ring_warning"
     },
     {
       "predicate": {
-        "custom_model_data": 99815
+        "custom_model_data": 99816
       },
       "model": "ff:item/ring_yellow"
     },
@@ -98,29 +116,35 @@
       "predicate": {
         "custom_model_data": 99910
       },
-      "model": "ff:item/ring2_purple_a"
+      "model": "ff:item/ring2_ffc"
     },
     {
       "predicate": {
         "custom_model_data": 99911
       },
-      "model": "ff:item/ring2_red"
+      "model": "ff:item/ring2_purple_a"
     },
     {
       "predicate": {
         "custom_model_data": 99912
       },
-      "model": "ff:item/ring2_red_a"
+      "model": "ff:item/ring2_red"
     },
     {
       "predicate": {
         "custom_model_data": 99913
       },
+      "model": "ff:item/ring2_red_a"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 99914
+      },
       "model": "ff:item/ring2_warning"
     },
     {
       "predicate": {
-        "custom_model_data": 99915
+        "custom_model_data": 99916
       },
       "model": "ff:item/ring2_yellow"
     },
@@ -128,29 +152,35 @@
       "predicate": {
         "custom_model_data": 100010
       },
-      "model": "ff:item/ring_4_purple_a"
+      "model": "ff:item/ring_4_ffc"
     },
     {
       "predicate": {
         "custom_model_data": 100011
       },
-      "model": "ff:item/ring_4_red"
+      "model": "ff:item/ring_4_purple_a"
     },
     {
       "predicate": {
         "custom_model_data": 100012
       },
-      "model": "ff:item/ring_4_red_a"
+      "model": "ff:item/ring_4_red"
     },
     {
       "predicate": {
         "custom_model_data": 100013
       },
+      "model": "ff:item/ring_4_red_a"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 100014
+      },
       "model": "ff:item/ring_4_warning"
     },
     {
       "predicate": {
-        "custom_model_data": 100015
+        "custom_model_data": 100016
       },
       "model": "ff:item/ring_4_yellow"
     },
@@ -158,29 +188,35 @@
       "predicate": {
         "custom_model_data": 100110
       },
-      "model": "ff:item/ring_8_purple_a"
+      "model": "ff:item/ring_8_ffc"
     },
     {
       "predicate": {
         "custom_model_data": 100111
       },
-      "model": "ff:item/ring_8_red"
+      "model": "ff:item/ring_8_purple_a"
     },
     {
       "predicate": {
         "custom_model_data": 100112
       },
-      "model": "ff:item/ring_8_red_a"
+      "model": "ff:item/ring_8_red"
     },
     {
       "predicate": {
         "custom_model_data": 100113
       },
+      "model": "ff:item/ring_8_red_a"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 100114
+      },
       "model": "ff:item/ring_8_warning"
     },
     {
       "predicate": {
-        "custom_model_data": 100115
+        "custom_model_data": 100116
       },
       "model": "ff:item/ring_8_yellow"
     },
@@ -188,29 +224,35 @@
       "predicate": {
         "custom_model_data": 100210
       },
-      "model": "ff:item/up_purple_a"
+      "model": "ff:item/up_ffc"
     },
     {
       "predicate": {
         "custom_model_data": 100211
       },
-      "model": "ff:item/up_red"
+      "model": "ff:item/up_purple_a"
     },
     {
       "predicate": {
         "custom_model_data": 100212
       },
-      "model": "ff:item/up_red_a"
+      "model": "ff:item/up_red"
     },
     {
       "predicate": {
         "custom_model_data": 100213
       },
+      "model": "ff:item/up_red_a"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 100214
+      },
       "model": "ff:item/up_warning"
     },
     {
       "predicate": {
-        "custom_model_data": 100215
+        "custom_model_data": 100216
       },
       "model": "ff:item/up_yellow"
     }

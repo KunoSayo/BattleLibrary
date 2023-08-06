@@ -14,7 +14,8 @@ fn gen_colors() {
             ("warning", [240, 213, 7, 128]),
             ("yellow", [240, 213, 7, 255]),
             ("red_a", [255, 0, 0, 64]),
-            ("purple_a", [73, 23, 137, 64])];
+            ("purple_a", [73, 23, 137, 64]),
+            ("ffc", [93, 164, 75, 192]), ];
     for (color, pixel) in colors {
         let path = format!("{}{}.png", path, color);
         let file_path = Path::new(&path);

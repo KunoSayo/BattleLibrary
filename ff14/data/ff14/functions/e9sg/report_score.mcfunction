@@ -1,0 +1,1 @@
+tellraw @a [{"text":"* "}, {"selector":"@s"}, {"text":" 积分是"}, {"score":{"name":"*", "objective":"dcstats"}}]

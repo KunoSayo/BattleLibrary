@@ -62,10 +62,10 @@ scoreboard players reset @a run
 scoreboard players reset @a crouch
 scoreboard players reset @a sneak
 
-execute as @a run function battle:check_inv
+execute as @a at @s run function battle:check_inv
 
 
-execute as @a[scores={chant=0..}] run function battleapi:chant_cb
+execute as @a[scores={chant=0..}] at @s run function battleapi:chant_cb
 execute as @a[scores={chant=0}] run scoreboard players reset @s chant
 execute as @a[scores={gcd=0}] run scoreboard players reset @s gcd
 

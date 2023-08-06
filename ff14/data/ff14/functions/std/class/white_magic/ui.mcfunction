@@ -1,5 +1,3 @@
-# This file with magic.... (something about idea)
-
 execute unless score @s ffccd matches 1.. unless entity @s[tag=gaming] run item replace entity @s hotbar.2 with minecraft:air
 
 item replace entity @s[tag=gaming, tag=!noskill] hotbar.0 with nether_star{display:{Lore:['"魔法 \\u00a77咏唱时间1.5s 复唱时间2.5s"', '""', '"\\u00a76闪耀的魔法技能 \\u00a7a威力：\\u00a7f100"', '"\\u00a79对目标发动\\u00a75无属性\\u00a79魔法攻击"'],"Name":"{\"text\":\"闪灼\"}}"}} 1

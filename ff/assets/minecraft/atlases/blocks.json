@@ -71,7 +71,8 @@
                 "warning": "trims/color_palettes/warning",
                 "red": "trims/color_palettes/red",
                 "red_a": "trims/color_palettes/red_a",
-                "purple_a": "trims/color_palettes/purple_a"
+                "purple_a": "trims/color_palettes/purple_a",
+                "ffc": "trims/color_palettes/ffc"
             }
         }
     ]

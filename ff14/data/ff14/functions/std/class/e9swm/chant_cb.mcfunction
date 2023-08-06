@@ -1,7 +1,7 @@
 scoreboard players operation @s bac = @s chant
 scoreboard players operation @s bac *= 10 consts
 scoreboard players operation @s bac /= @s maxchant
-
+particle minecraft:witch ~ ~0.5 ~ 0.0125 0.125 0.0125 0 5 force @a
 title @s[tag=atk, scores={bac=10}] actionbar [{"text":"\u00a76波动炮 \u00a77 发动中 ---------- \u00a7r| "}, {"score":{"name":"*", "objective":"chant"}}]
 title @s[tag=atk, scores={bac=9}] actionbar [{"text":"\u00a76波动炮 \u00a77 发动中 #--------- \u00a7r| "}, {"score":{"name":"*", "objective":"chant"}}]
 title @s[tag=atk, scores={bac=8}] actionbar [{"text":"\u00a76波动炮 \u00a77 发动中 ##-------- \u00a7r| "}, {"score":{"name":"*", "objective":"chant"}}]

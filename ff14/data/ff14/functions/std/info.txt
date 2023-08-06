@@ -7,5 +7,5 @@ anime effects
 
 
 Tags
-noskill: won't show skill ui
+noskill: won't show skill ui that can be use (but show cd)
 gaming: the player playing game
